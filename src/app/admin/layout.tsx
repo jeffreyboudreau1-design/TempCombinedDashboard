@@ -50,7 +50,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             School Year Admin
           </Link>
           <Link href="/admin/tables" style={linkStyle('/admin/tables')}>
-            Table Maintenance
+            Table Maintenance - Schools
+          </Link>
+          <Link href="/admin/truancy-tables" style={linkStyle('/admin/truancy-tables')}>
+            Table Maintenance - Truancy
           </Link>
         </nav>
       </div>

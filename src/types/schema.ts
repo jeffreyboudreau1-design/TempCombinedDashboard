@@ -178,6 +178,9 @@ export interface StudentRecord {
   SchoolsProgram?: SchoolsProgram;
   GradeLevel: GradeLevel;
   HomeSchool: string; // Foreign Key pointing to SchoolNames.id
+  CurrentGoals?: string;
+  LevelOfService?: string; // Using string to allow MentalHealthTier values or custom
+
   Hybrid: AccessToggle;
   Status: StudentStatus;
   Session: AttendanceSession;
@@ -208,6 +211,7 @@ export interface StudentSchoolYear {
   Characteristics?: string[]; // Array of multi-select configuration labels
   OtherOutcomes?: string[];
   PrimaryAcademicOutcomes?: string[];
+  ActivitiesAndServices?: string[]; // Array of ActivitiesAndServices IDs
   
   // Academic Module Specific Fields
   CreditsEarned: number; // Evaluated dynamically against graduation target
@@ -274,6 +278,7 @@ export interface StudentCaseworkerNotes {
   OrgID: string;
   CWDate: string;
   CWNotes: string;
+  Interaction?: string; // e.g. 'Home Visit', 'School Visit', etc.
   CWAuthor: string; // Foreign Key pointing to Employee.id
   CreatedAt: DBTimestamp;
 }
@@ -367,4 +372,12 @@ export interface CaseEntryExitDates {
   PreAttendanceTardy: number;
   LastYearsUnexcused: number;
   CreatedAt: DBTimestamp;
+}
+
+export interface ActivitiesAndServices {
+  id: string; // Native auto-generated Firestore doc.id
+  OrgID: string;
+  ServiceCode: string; // Prefix code like 'A', 'B' (hidden in UI)
+  ServiceLabel: string; // User friendly label
+  ParentID?: string; // If empty/undefined, it's a parent. Otherwise child.
 }

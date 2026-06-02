@@ -9,9 +9,10 @@ import { useAuth } from '@/contexts/AuthContext';
 interface StudentProfileFormProps {
   initialData?: any;
   onSubmit: (data: any) => Promise<boolean>;
+  readOnly?: boolean;
 }
 
-export default function StudentProfileForm({ initialData, onSubmit }: StudentProfileFormProps) {
+export default function StudentProfileForm({ initialData, onSubmit, readOnly = false }: StudentProfileFormProps) {
   const { schools, schoolGrades, employees } = useLookups();
   const { currentUser } = useAuth();
 
@@ -112,6 +113,8 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
     color: '#ffffff'
   };
 
+  const getStyle = () => ({ ...inputStyle, opacity: readOnly ? 0.7 : 1 });
+
   return (
     <form onSubmit={handleSubmit} style={{
       background: 'var(--glass-bg)',
@@ -130,18 +133,18 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
         
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <label style={labelStyle}>First Name</label>
-          <input required type="text" placeholder="First Name" value={firstName} onChange={e => setFirstName(e.target.value)} style={inputStyle} />
+          <input required type="text" placeholder="First Name" value={firstName} onChange={e => setFirstName(e.target.value)} style={getStyle()} disabled={readOnly} />
         </div>
         
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <label style={labelStyle}>Last Name</label>
-          <input required type="text" placeholder="Last Name" value={lastName} onChange={e => setLastName(e.target.value)} style={inputStyle} />
+          <input required type="text" placeholder="Last Name" value={lastName} onChange={e => setLastName(e.target.value)} style={getStyle()} disabled={readOnly} />
         </div>
 
         {!isAdvisor && (
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <label style={labelStyle}>Sex</label>
-            <select required={!isAdvisor} value={sex} onChange={e => setSex(e.target.value)} style={inputStyle}>
+            <select required={!isAdvisor} value={sex} onChange={e => setSex(e.target.value)} style={getStyle()} disabled={readOnly}>
               <option value="">Select Sex</option>
               {Object.values(StudentSex).map(s => <option key={s} value={s}>{s}</option>)}
             </select>
@@ -150,7 +153,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <label style={labelStyle}>Grade Level</label>
-          <select required value={gradeLevel} onChange={e => setGradeLevel(e.target.value)} style={inputStyle}>
+          <select required value={gradeLevel} onChange={e => setGradeLevel(e.target.value)} style={getStyle()} disabled={readOnly}>
             <option value="">Select Grade</option>
             {availableGrades.map(g => <option key={g} value={g}>{g}</option>)}
           </select>
@@ -158,7 +161,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
         <div style={{ display: 'flex', flexDirection: 'column', gridColumn: 'span 2' }}>
           <label style={labelStyle}>Home School</label>
-          <select required value={homeSchool} onChange={e => setHomeSchool(e.target.value)} style={inputStyle}>
+          <select required value={homeSchool} onChange={e => setHomeSchool(e.target.value)} style={getStyle()} disabled={readOnly}>
             <option value="">Select School</option>
             {availableSchools.map(s => <option key={s.id} value={s.id}>{s.SchoolName}</option>)}
           </select>
@@ -166,7 +169,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <label style={labelStyle}>Program</label>
-          <select required value={schoolsProgram} onChange={e => setSchoolsProgram(e.target.value)} style={inputStyle}>
+          <select required value={schoolsProgram} onChange={e => setSchoolsProgram(e.target.value)} style={getStyle()} disabled={readOnly}>
             <option value="SALT">SALT</option>
             <option value="ALOP">ALOP</option>
             <option value="RAAC">RAAC</option>
@@ -176,7 +179,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
         {(!initialData || currentUser?.Role === EmployeeRole.SUPER_ADMIN) && !isAdvisor && (
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <label style={labelStyle}>School Year</label>
-            <select required value={schoolYearId} onChange={e => setSchoolYearId(e.target.value)} style={inputStyle}>
+            <select required value={schoolYearId} onChange={e => setSchoolYearId(e.target.value)} style={getStyle()} disabled={readOnly}>
               <option value="">Select Year</option>
               {yearDefinitions.map(yd => <option key={yd.id} value={yd.id}>{yd.YearLabel}</option>)}
             </select>
@@ -187,7 +190,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
           <>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <label style={labelStyle}>Hybrid Student?</label>
-              <select value={hybrid} onChange={e => setHybrid(e.target.value)} style={inputStyle}>
+              <select value={hybrid} onChange={e => setHybrid(e.target.value)} style={getStyle()} disabled={readOnly}>
                 <option value={AccessToggle.YES}>Yes</option>
                 <option value={AccessToggle.NO}>No</option>
               </select>
@@ -195,7 +198,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <label style={labelStyle}>Employed?</label>
-              <select value={employed} onChange={e => setEmployed(e.target.value)} style={inputStyle}>
+              <select value={employed} onChange={e => setEmployed(e.target.value)} style={getStyle()} disabled={readOnly}>
                 <option value={AccessToggle.YES}>Yes</option>
                 <option value={AccessToggle.NO}>No</option>
               </select>
@@ -203,7 +206,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
             <div style={{ display: 'flex', flexDirection: 'column', gridColumn: 'span 2' }}>
               <label style={labelStyle}>Student Status</label>
-              <select required={!isAdvisor} value={status} onChange={e => setStatus(e.target.value)} style={inputStyle}>
+              <select required={!isAdvisor} value={status} onChange={e => setStatus(e.target.value)} style={getStyle()} disabled={readOnly}>
                 {Object.values(StudentStatus).map(s => <option key={s} value={s}>{s}</option>)}
               </select>
             </div>
@@ -212,8 +215,8 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
               <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', gridColumn: 'span 2', alignItems: 'center' }}>
                 <label style={{...labelStyle, margin: 0, marginRight: '1rem'}}>Days Schedule:</label>
                 {Object.values(HybridDays).map(day => (
-                  <label key={day} style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', fontSize: '0.8rem' }}>
-                    <input type="checkbox" checked={daysSchedule.includes(day)} onChange={() => handleDayToggle(day)} />
+                  <label key={day} style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', fontSize: '0.8rem', opacity: readOnly ? 0.7 : 1 }}>
+                    <input type="checkbox" checked={daysSchedule.includes(day)} onChange={() => handleDayToggle(day)} disabled={readOnly} />
                     {day.substring(0,3)}
                   </label>
                 ))}
@@ -222,7 +225,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
             <div style={{ display: 'flex', flexDirection: 'column', gridColumn: 'span 2' }}>
               <label style={labelStyle}>Assign Teacher</label>
-              <select value={teacher} onChange={e => setTeacher(e.target.value)} style={inputStyle}>
+              <select value={teacher} onChange={e => setTeacher(e.target.value)} style={getStyle()} disabled={readOnly}>
                 <option value="">None</option>
                 {teachers.map(t => <option key={t.id} value={t.id}>{t.EmployeeName}</option>)}
               </select>
@@ -230,7 +233,7 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
             <div style={{ display: 'flex', flexDirection: 'column', gridColumn: 'span 2' }}>
               <label style={labelStyle}>Assign Social Worker</label>
-              <select value={socialWorker} onChange={e => setSocialWorker(e.target.value)} style={inputStyle}>
+              <select value={socialWorker} onChange={e => setSocialWorker(e.target.value)} style={getStyle()} disabled={readOnly}>
                 <option value="">None</option>
                 {socialWorkers.map(sw => <option key={sw.id} value={sw.id}>{sw.EmployeeName}</option>)}
               </select>
@@ -240,20 +243,22 @@ export default function StudentProfileForm({ initialData, onSubmit }: StudentPro
 
       </div>
 
-      <button type="submit" style={{
-        marginTop: '0.5rem',
-        padding: '0.75rem',
-        background: 'var(--color-primary)',
-        border: 'none',
-        borderRadius: '4px',
-        color: 'white',
-        fontWeight: 'bold',
-        cursor: 'pointer',
-        transition: 'all 0.2s',
-        fontSize: '0.9rem'
-      }}>
-        Save Student
-      </button>
+      {!readOnly && (
+        <button type="submit" style={{
+          marginTop: '0.5rem',
+          padding: '0.75rem',
+          background: 'var(--color-primary)',
+          border: 'none',
+          borderRadius: '4px',
+          color: 'white',
+          fontWeight: 'bold',
+          cursor: 'pointer',
+          transition: 'all 0.2s',
+          fontSize: '0.9rem'
+        }}>
+          Save Student
+        </button>
+      )}
     </form>
   );
 }

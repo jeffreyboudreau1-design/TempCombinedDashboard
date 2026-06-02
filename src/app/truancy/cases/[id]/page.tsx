@@ -24,6 +24,9 @@ export default function TruancyCaseDetailPage({ params }: { params: Promise<{ id
   const [contacts, setContacts] = useState<any[]>([]);
   const [contactsToDelete, setContactsToDelete] = useState<string[]>([]);
   const [student, setStudent] = useState<any>(null);
+  const [activitiesData, setActivitiesData] = useState<any[]>([]);
+  const [caseworkerNotes, setCaseworkerNotes] = useState<any[]>([]);
+  const [newNote, setNewNote] = useState({ StuSchYrID: '', Interaction: 'Home Visit', CWNotes: '' });
 
   // Demographics Flat Data
   const [formData, setFormData] = useState({
@@ -63,21 +66,29 @@ export default function TruancyCaseDetailPage({ params }: { params: Promise<{ id
     
     const fetchData = async () => {
       try {
-        const [studentData, ssyList, contactsList, years, cdList] = await Promise.all([
+        const [studentData, ssyList, contactsList, years, cdList, activitiesList, notesList] = await Promise.all([
           api.get(`/STUDENTS/${resolvedParams.id}`) as Promise<any>,
           api.get('/StudentSchoolYear') as Promise<any[]>,
           api.get('/StudentContact') as Promise<any[]>,
           api.get('/SchoolYear') as Promise<any[]>,
-          api.get('/CaseEntryExitDates') as Promise<any[]>
+          api.get('/CaseEntryExitDates') as Promise<any[]>,
+          api.get('/ActivitiesAndServices') as Promise<any[]>,
+          api.get('/StudentCaseworkerNotes') as Promise<any[]>
         ]);
 
         setYearDefinitions(years);
+        setActivitiesData(activitiesList);
         setStudent(studentData);
 
         const caseSsyList = ssyList.filter((y: any) => y.StudentRecordID === resolvedParams.id);
         setAllSSY(caseSsyList);
+        setCaseworkerNotes(notesList.filter((n: any) => caseSsyList.find((s: any) => s.id === n.StuSchYrID)));
         
-        const myCaseDates = cdList.filter((c: any) => c.StuSchYrID && caseSsyList.find(s => s.id === c.StuSchYrID));
+        if (caseSsyList.length > 0) {
+           setNewNote(prev => ({ ...prev, StuSchYrID: caseSsyList[0].id }));
+        }
+
+        const myCaseDates = cdList.filter((c: any) => c.StuSchYrID && caseSsyList.find((s: any) => s.id === c.StuSchYrID));
         
         // Auto-migrate legacy pre-attendance seed data from STUDENT object if no CaseEntryExitDates exist
         if (myCaseDates.length === 0) {
@@ -180,6 +191,27 @@ export default function TruancyCaseDetailPage({ params }: { params: Promise<{ id
     setContacts(contacts.filter(c => c.id !== id));
     if (!id.startsWith('TEMP-')) {
       setContactsToDelete([...contactsToDelete, id]);
+    }
+  };
+
+  const handleAddNote = async () => {
+    if (!newNote.StuSchYrID || !newNote.CWNotes || !newNote.Interaction) return alert('Please fill in all note fields.');
+    try {
+      const payload = {
+        OrgID: student?.OrgID || 'ORG-IKAN-01',
+        StuSchYrID: newNote.StuSchYrID,
+        CWDate: new Date().toISOString(),
+        Interaction: newNote.Interaction,
+        CWNotes: newNote.CWNotes,
+        CWAuthor: currentUser?.EmployeeName || currentUser?.id || 'Unknown',
+        CreatedAt: new Date().toISOString()
+      };
+      const savedNote = await api.post('/StudentCaseworkerNotes', payload) as any;
+      setCaseworkerNotes([savedNote, ...caseworkerNotes].sort((a, b) => new Date(b.CWDate).getTime() - new Date(a.CWDate).getTime()));
+      setNewNote({ ...newNote, CWNotes: '' });
+    } catch (err) {
+      console.error(err);
+      alert('Failed to add note');
     }
   };
 
@@ -614,6 +646,128 @@ export default function TruancyCaseDetailPage({ params }: { params: Promise<{ id
                 </tbody>
               </table>
             </div>
+          </div>
+        )}
+
+        {/* NOTES TAB */}
+        {activeTab === 'Notes' && (
+          <div className="glass-panel" style={{ padding: '1.5rem', animation: 'fadeIn 0.3s ease-in-out' }}>
+            <h4 style={{ margin: '0 0 1rem 0', color: '#fcd34d' }}>Add New Caseworker Note</h4>
+            <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: 'block', marginBottom: '0.25rem', color: '#fff', fontSize: '0.9rem' }}>School Year</label>
+                <select 
+                  value={newNote.StuSchYrID} 
+                  onChange={(e) => setNewNote({ ...newNote, StuSchYrID: e.target.value })}
+                  style={inputStyle}
+                >
+                  {allSSY.map(ssy => (
+                    <option key={ssy.id} value={ssy.id}>{getYearLabel(ssy.SchoolYearID)}</option>
+                  ))}
+                </select>
+              </div>
+              <div style={{ flex: 1 }}>
+                <label style={{ display: 'block', marginBottom: '0.25rem', color: '#fff', fontSize: '0.9rem' }}>Interaction</label>
+                <select 
+                  value={newNote.Interaction} 
+                  onChange={(e) => setNewNote({ ...newNote, Interaction: e.target.value })}
+                  style={inputStyle}
+                >
+                  <option value="Home Visit">Home Visit</option>
+                  <option value="School Visit">School Visit</option>
+                  <option value="Phone/Email/Text">Phone/Email/Text</option>
+                  <option value="Family meeting/Court">Family meeting/Court</option>
+                  <option value="Other-Clarified in note">Other-Clarified in note</option>
+                </select>
+              </div>
+            </div>
+            
+            <label style={{ display: 'block', marginBottom: '0.25rem', color: '#fff', fontSize: '0.9rem' }}>Note Content</label>
+            <textarea 
+              value={newNote.CWNotes}
+              onChange={(e) => setNewNote({ ...newNote, CWNotes: e.target.value })}
+              style={{ ...inputStyle, minHeight: '80px', marginBottom: '1rem' }}
+              placeholder="Type note details here..."
+            />
+            
+            <button 
+              type="button" 
+              onClick={handleAddNote}
+              style={{ padding: '0.75rem 2rem', background: '#fcd34d', color: '#000', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}
+            >
+              Add Note
+            </button>
+
+            <h4 style={{ margin: '2rem 0 1rem 0', color: '#fcd34d', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.5rem' }}>Historical Notes</h4>
+            
+            {caseworkerNotes.length === 0 ? (
+              <div style={{ color: 'rgba(255,255,255,0.5)', fontStyle: 'italic' }}>No notes recorded.</div>
+            ) : (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                {[...caseworkerNotes].sort((a, b) => new Date(b.CWDate).getTime() - new Date(a.CWDate).getTime()).map(note => (
+                  <div key={note.id} style={{ background: 'rgba(0,0,0,0.3)', padding: '1rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', color: 'rgba(255,255,255,0.7)', fontSize: '0.85rem' }}>
+                      <div>
+                         <strong style={{ color: '#fff' }}>{new Date(note.CWDate).toLocaleDateString()} {new Date(note.CWDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</strong>
+                         <span style={{ margin: '0 0.5rem' }}>|</span>
+                         Author: <span style={{ color: '#fff' }}>{note.CWAuthor}</span>
+                      </div>
+                      <div style={{ background: 'rgba(255,255,255,0.1)', padding: '0.1rem 0.5rem', borderRadius: '4px' }}>
+                        {note.Interaction || 'Note'}
+                      </div>
+                    </div>
+                    <div style={{ color: '#fff', whiteSpace: 'pre-wrap' }}>{note.CWNotes}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ACTIVITIES & SERVICES TAB */}
+        {activeTab === 'Act/Serv Current Yr' && (
+          <div className="glass-panel" style={{ padding: '1.5rem', animation: 'fadeIn 0.3s ease-in-out' }}>
+            <h4 style={{ margin: '0 0 1.5rem 0', color: '#fcd34d' }}>Activities & Services (Current Year)</h4>
+            
+            {allSSY.length > 0 ? (
+              <div style={{ columnCount: 3, columnGap: '2rem', color: '#fff', fontSize: '0.85rem' }}>
+                {activitiesData.filter(a => !a.ParentID).map(parent => {
+                  const ssy = allSSY[allSSY.length - 1];
+                  const pLabel = parent.ServiceLabel.replace(/^[A-Z]\s*-\s*/, '');
+                  return (
+                    <div key={parent.id} style={{ breakInside: 'avoid', marginBottom: '0.75rem' }}>
+                      <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', cursor: isEditing && canEditFull ? 'pointer' : 'default' }}>
+                        <input 
+                          type="checkbox" 
+                          disabled={!isEditing || !canEditFull}
+                          checked={(ssy.ActivitiesAndServices || []).includes(parent.id)}
+                          onChange={() => handleSSYArrayToggle(ssy.id, 'ActivitiesAndServices', parent.id)}
+                          style={{ marginTop: '0.2rem' }}
+                        />
+                        <span>{pLabel}</span>
+                      </label>
+                      {activitiesData.filter(c => c.ParentID === parent.id).map(child => {
+                        const cLabel = child.ServiceLabel.replace(/^[A-Z]\s*-\s*/, '');
+                        return (
+                          <label key={child.id} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', cursor: isEditing && canEditFull ? 'pointer' : 'default', marginLeft: '1.5rem', marginTop: '0.5rem' }}>
+                            <input 
+                              type="checkbox" 
+                              disabled={!isEditing || !canEditFull}
+                              checked={(ssy.ActivitiesAndServices || []).includes(child.id)}
+                              onChange={() => handleSSYArrayToggle(ssy.id, 'ActivitiesAndServices', child.id)}
+                              style={{ marginTop: '0.2rem' }}
+                            />
+                            <span>{cLabel}</span>
+                          </label>
+                        );
+                      })}
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div style={{ padding: '1rem', textAlign: 'center', opacity: 0.5 }}>No School Year data found for this case.</div>
+            )}
           </div>
         )}
 

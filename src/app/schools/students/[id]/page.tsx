@@ -96,7 +96,7 @@ export default function CreditAuditPage({ params }: { params: Promise<{ id: stri
       }
       
       return c.CourseCategory === category.CategoryName;
-    });
+    }).sort((a, b) => (a.CourseName || '').localeCompare(b.CourseName || ''));
     
     let requiredCredits = category.StateCreditsRequired || 0;
 

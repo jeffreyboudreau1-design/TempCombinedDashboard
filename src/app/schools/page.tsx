@@ -3,7 +3,6 @@
 import React from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { AccessToggle } from '@/types/schema';
-import Image from 'next/image';
 import StudentListTable from '@/components/StudentListTable';
 
 export default function SchoolsDashboard() {
@@ -22,13 +21,6 @@ export default function SchoolsDashboard() {
 
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-      <header style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-        <Image src="/Eagles.png" alt="Eagles Logo" width={120} height={120} style={{ objectFit: 'contain' }} />
-        <div>
-          <h1 style={{ color: 'var(--color-primary)', fontSize: '2rem', margin: 0 }}>Schools Dashboard</h1>
-          <p style={{ color: 'var(--color-text-muted)', margin: '0.5rem 0 0 0' }}>Manage student enrollment, courses, and mental health tracking.</p>
-        </div>
-      </header>
 
       <div style={{ minHeight: '400px' }}>
         <StudentListTable />

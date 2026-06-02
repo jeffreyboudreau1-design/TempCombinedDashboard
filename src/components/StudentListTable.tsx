@@ -193,6 +193,10 @@ export default function StudentListTable() {
   const handleRowClick = (id: string) => {
     if (isProgressFilter) {
       router.push(`/schools/students/${id}?view=progress`);
+    } else if (isAuditFilter) {
+      router.push(`/schools/students/${id}`);
+    } else if (currentUser.Role === EmployeeRole.SOCIAL_WORKER) {
+      router.push(`/schools/students/${id}/social-worker`);
     } else if (currentUser.Role === EmployeeRole.SUPER_ADMIN || currentUser.Role === EmployeeRole.SCHOOL_ADMIN_ASST) {
       router.push(`/schools/students/${id}/edit`);
     } else {
@@ -273,7 +277,7 @@ export default function StudentListTable() {
                   <td style={tdStyle}>
                     <span 
                       onClick={() => handleRowClick(s.id)}
-                      style={{ cursor: 'pointer', color: '#60a5fa', textDecoration: 'underline' }}
+                      style={{ cursor: 'pointer', color: '#1d4ed8', textDecoration: 'underline', fontWeight: 'bold' }}
                     >
                       {s.StudentLastName}
                     </span>
@@ -281,7 +285,7 @@ export default function StudentListTable() {
                   <td style={tdStyle}>
                     <span 
                       onClick={() => handleRowClick(s.id)}
-                      style={{ cursor: 'pointer', color: '#60a5fa', textDecoration: 'underline' }}
+                      style={{ cursor: 'pointer', color: '#1d4ed8', textDecoration: 'underline', fontWeight: 'bold' }}
                     >
                       {s.StudentFirstName}
                     </span>
@@ -291,7 +295,7 @@ export default function StudentListTable() {
                   <td style={tdStyle}>{s.Employed || 'No'}</td>
                   <td style={tdStyle}>{s.TeacherName}</td>
                   {!hideColumns && (
-                    <td style={{ ...tdStyle, color: s.Status === StudentStatus.ENROLLED ? '#4ade80' : 'rgba(255,255,255,0.7)' }}>{s.Status}</td>
+                    <td style={{ ...tdStyle, color: s.Status === StudentStatus.ENROLLED ? '#15803d' : 'rgba(255,255,255,0.7)', fontWeight: s.Status === StudentStatus.ENROLLED ? 'bold' : 'normal' }}>{s.Status}</td>
                   )}
                   {!hideColumns && (
                     <td style={tdStyle}>

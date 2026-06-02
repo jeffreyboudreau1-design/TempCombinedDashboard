@@ -29,9 +29,9 @@ export default function TruancySidebar() {
 
   return (
     <aside style={{ width: '250px', background: 'var(--glass-bg)', backdropFilter: 'blur(10px)', borderRight: '1px solid var(--glass-border)', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-        <h3 style={{ margin: 0, color: '#fcd34d' }}>Truancy Module</h3>
-        <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.8rem', color: 'rgba(255,255,255,0.6)' }}>Case Management</p>
+      <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)', textAlign: 'center' }}>
+        <img src="/SAM.png" alt="Truancy Logo" style={{ width: '100px', height: '100px', objectFit: 'contain', marginBottom: '1rem' }} />
+        <h3 style={{ margin: 0, color: '#fcd34d' }}>Truancy Dashboard</h3>
       </div>
 
       <nav style={{ flex: 1, padding: '1.5rem 1rem' }}>

@@ -51,25 +51,27 @@ export default function Header() {
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
         <div style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--color-primary)' }}>
-          IKAN DASHBOARDS
+          I-KAN Dashboards
         </div>
         
         {/* Navigation Tabs based on Role Access */}
         {currentUser && (
           <nav style={{ display: 'flex', gap: '1rem' }}>
-            <Link href="/admin/school-year" style={{ textDecoration: 'none', color: 'var(--color-text-main)', fontWeight: 'bold' }}>
-              Admin
-            </Link>
+            {currentUser.Role === 'SuperAdmin' && (
+              <Link href="/admin/school-year" style={{ textDecoration: 'none', color: 'var(--color-text-main)', fontWeight: 'bold' }}>
+                Admin
+              </Link>
+            )}
             
             {currentUser.DeptTruancyAccess === AccessToggle.YES && (
               <Link href="/truancy" style={{ textDecoration: 'none', color: 'var(--color-text-main)', fontWeight: 'bold' }}>
-                Truancy Dashboard
+                Truancy
               </Link>
             )}
             
             {currentUser.DeptSchoolsAccess === AccessToggle.YES && (
               <Link href="/schools" style={{ textDecoration: 'none', color: 'var(--color-text-main)', fontWeight: 'bold' }}>
-                Schools Dashboard
+                Schools
               </Link>
             )}
           </nav>

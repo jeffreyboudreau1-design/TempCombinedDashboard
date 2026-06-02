@@ -31,11 +31,12 @@ function SchoolsSidebarInner() {
   });
 
   return (
-    <aside style={{ width: '250px', flexShrink: 0, paddingRight: '2rem' }}>
-      <h3 style={{ color: '#fff', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '1rem', opacity: 0.5 }}>
-        Schools Navigation
-      </h3>
-      <nav>
+    <aside style={{ width: '250px', flexShrink: 0, background: 'var(--glass-bg)', backdropFilter: 'blur(10px)', borderRight: '1px solid var(--glass-border)', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)', textAlign: 'center' }}>
+        <img src="/Eagles.png" alt="Schools Logo" style={{ width: '100px', height: '100px', objectFit: 'contain', marginBottom: '1rem' }} />
+        <h3 style={{ margin: 0, color: '#fcd34d' }}>Schools Dashboard</h3>
+      </div>
+      <nav style={{ flex: 1, padding: '1.5rem 1rem' }}>
         {isAdvisor && (
           <>
             <Link href="/schools?filter=audits" style={linkStyle(pathname === '/schools' && currentFilter === 'audits')}>
@@ -69,7 +70,7 @@ function SchoolsSidebarInner() {
 
 export default function SchoolsSidebar() {
   return (
-    <React.Suspense fallback={<aside style={{ width: '250px', flexShrink: 0, paddingRight: '2rem' }} />}>
+    <React.Suspense fallback={<aside style={{ width: '250px', flexShrink: 0, background: 'var(--glass-bg)', backdropFilter: 'blur(10px)', borderRight: '1px solid var(--glass-border)' }} />}>
       <SchoolsSidebarInner />
     </React.Suspense>
   );

@@ -2676,9 +2676,11 @@
       "id": "YZWnMxXMUfo",
       "AuditComplete": "Yes",
       "CreatedAt": "2026-05-27T15:48:40.533Z",
-      "UpdatedAt": "2026-05-27T15:55:35.549Z",
-      "SchoolYearID": "Oj1IwysV9tk",
-      "Dashboard": "Schools"
+      "UpdatedAt": "2026-06-02T20:05:19.820Z",
+      "SchoolYearID": "SY-2025-2026",
+      "Dashboard": "Schools",
+      "CurrentGoals": "Test Goal",
+      "LevelOfService": "Tier 1"
     },
     {
       "StudentID": 614558,
@@ -4619,7 +4621,48 @@
       "CreatedAt": "2026-05-28T16:29:17.903Z"
     }
   ],
-  "StudentCaseworkerNotes": [],
+  "StudentCaseworkerNotes": [
+    {
+      "OrgID": "ORG-IKAN-01",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "CWDate": "2026-06-02T20:05:19.828Z",
+      "Interaction": "System Update",
+      "CWNotes": "Goals updated from \"None\" to \"Test Goal\"",
+      "CWAuthor": "Jennifer SocialWorker",
+      "CreatedAt": "2026-06-02T20:05:19.828Z",
+      "id": "E0klkF6Bh8o"
+    },
+    {
+      "OrgID": "ORG-IKAN-01",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "CWDate": "2026-06-02T20:05:19.838Z",
+      "Interaction": "System Update",
+      "CWNotes": "Level of Service updated from \"None\" to \"Tier 1\"",
+      "CWAuthor": "Jennifer SocialWorker",
+      "CreatedAt": "2026-06-02T20:05:19.838Z",
+      "id": "U4hfzhJeBAE"
+    },
+    {
+      "OrgID": "ORG-IKAN-01",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "CWDate": "2026-06-02T20:05:28.353Z",
+      "Interaction": "School Visit",
+      "CWNotes": "test note\n",
+      "CWAuthor": "Jennifer SocialWorker",
+      "CreatedAt": "2026-06-02T20:05:28.353Z",
+      "id": "HXaKK0hfBsw"
+    },
+    {
+      "OrgID": "ORG-IKAN-01",
+      "StuSchYrID": "U2wQaN81QTc",
+      "CWDate": "2026-06-02T20:17:32.658Z",
+      "Interaction": "Home Visit",
+      "CWNotes": "testing note",
+      "CWAuthor": "Jeff Super",
+      "CreatedAt": "2026-06-02T20:17:32.659Z",
+      "id": "AHRbQgHi314"
+    }
+  ],
   "StudentTracking": [],
   "StudentMentalHealth": [],
   "MentalHealthNotes": [],
