@@ -1,0 +1,129 @@
+Credit Audit Entry - Layout & Design Specification
+This document provides a highly detailed breakdown of the structural layout, UI components, and visual styling used to construct the Credit Audit Entry screen. Save this into your master build prompt to perfectly replicate this aesthetic and functional architecture.
+
+1. Global CSS & Aesthetics
+The layout relies heavily on modern glassmorphism and tailored CSS variables to create a premium, clean interface.
+
+Essential CSS Variables
+css
+
+:root {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-primary: #4f46e5;
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+  --border-radius-lg: 16px;
+  --border-color: #e2e8f0;
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+Glassmorphism Utility Class
+Used extensively on top-level containers (headers, footers, category boxes).
+
+css
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-glass);
+}
+2. Macro-Layout Structure (Masonry Grid)
+The screen is vertically stacked into three main sections: Header, Masonry Layout, and Footer. The core layout utilizes a 1/3 and 2/3 flexbox split to create a masonry-style visual effect that perfectly balances content density.
+
+tsx
+
+<div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+  {/* Top Banner */}
+  <HeaderBar />
+  {/* Masonry Layout Split */}
+  <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+    
+    {/* Left Column (1/3 width) */}
+    <div style={{ flex: '1 1 0', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      <CategoryBox title="LANGUAGE ARTS" />
+      <CategoryBox title="SOCIAL STUDIES" />
+      <CategoryBox title="IL CONSTITUTION" />
+    </div>
+    
+    {/* Right Column (2/3 width) */}
+    <div style={{ flex: '2 1 0', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      
+      {/* Nested Top Split for smaller sciences/math */}
+      <div style={{ display: 'flex', gap: '1rem' }}>
+        <div style={{ flex: '1 1 0' }}><CategoryBox title="MATHEMATICS" /></div>
+        <div style={{ flex: '1 1 0' }}><CategoryBox title="SCIENCE" /></div>
+      </div>
+      {/* Full width bottom span for massive Electives list */}
+      <div>
+        <CategoryBox title="ELECTIVES" isMagazine={true} />
+      </div>
+    </div>
+  </div>
+  {/* Bottom Action Bar */}
+  <FooterBar />
+</div>
+3. Category Box Component
+Each subject area is wrapped in a CategoryBox. It dynamically takes a background tint and header tint mapped from a central palette.
+
+Color Mapping Array
+json
+
+[
+  { "title": "LANGUAGE ARTS", "bg": "#fef3c7", "header": "#fde68a" },
+  { "title": "MATHEMATICS", "bg": "#e0f2fe", "header": "#bae6fd" },
+  { "title": "SCIENCE", "bg": "#ffe4e6", "header": "#fecdd3" },
+  { "title": "SOCIAL STUDIES", "bg": "#f3e8ff", "header": "#e9d5ff" },
+  { "title": "ELECTIVES", "bg": "#dcfce7", "header": "#bbf7d0" },
+  { "title": "IL CONSTITUTION", "bg": "#ffedd5", "header": "#fed7aa" }
+]
+Layout Modes
+Standard Mode (1 Column): Renders a single vertical list of courses.
+Magazine Mode (2 Columns): Used explicitly for ELECTIVES due to the high volume of courses. It splits the array of courses in half and renders them side-by-side using display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem'.
+Category Box Header
+Displays the Title (Left aligned) and the requirement calculations (Right aligned).
+
+tsx
+
+<div style={{ backgroundColor: headerColor, padding: '0.5rem 1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+  <h4 style={{ margin: 0, color: 'var(--color-text-main)', fontSize: '0.9rem', fontWeight: 'bold' }}>{title}</h4>
+  <div style={{ fontSize: '0.8rem', fontWeight: 600, textAlign: 'right' }}>
+    <div>Req: {requiredCredits}</div>
+    <div style={{ color: remaining <= 0 ? 'var(--color-success)' : 'inherit' }}>
+      Rem: {remaining}
+    </div>
+  </div>
+</div>
+4. Course Row (Data Grid)
+The underlying tabular structure of the courses inside a category block. It uses a strict CSS Grid to enforce column alignment without using HTML <table> tags.
+
+Grid Template
+css
+
+/* Layout: Course Name (Fluid), Grade Dropdown (40px), 4 Checkboxes (50px each) */
+grid-template-columns: 1fr 40px 50px 50px 50px 50px;
+align-items: center;
+Column Headers (Abbreviated for space)
+Rendered above the map loop.
+
+(Empty space for course name)
+Grd
+Comp
+Enrl
+Need
+Next
+Row Element Styling
+Course Name Cell: <div style={{ paddingRight: '0.5rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+Dropdown Cell: Minimized <select> element rendered dynamically if completed is checked.
+Checkbox Cells: Centered checkboxes (<div style={{ textAlign: 'center' }}><input type="checkbox" /></div>).
+5. Print Mode Optimization (@media print)
+A massive part of the functionality requires the entire masonry structure to condense onto a single portrait page.
+
+Key Print CSS Rules
+Font Scaling: body { font-size: 8px !important; } - drastically shrink everything to prevent text wrapping.
+Component Pruning: button, .btn, header, .print-hide { display: none !important; } - Hide global navs, save buttons, and print buttons.
+Glassmorphism Stripping: .glass-panel { box-shadow: none !important; backdrop-filter: none !important; padding: 0.15rem !important; } - Remove heavy graphics to save printer ink and space.
+Column Squeezing: .course-grid { grid-template-columns: 1fr 22px 22px 22px 22px !important; } - Crush the checkbox columns to exactly 22px to maximize horizontal space for the course names.
+Page Break Avoidance: tr, .card { page-break-inside: avoid; } - Prevents category boxes from snapping in half across pages.

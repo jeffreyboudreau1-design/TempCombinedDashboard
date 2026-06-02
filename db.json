@@ -1,0 +1,6808 @@
+{
+  "SchoolYear": [
+    {
+      "id": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "YearLabel": "Year 25-26",
+      "SchStartDate": "2025-08-31",
+      "SchEndDate": "2026-05-31",
+      "IsActiveYear": "Yes",
+      "CreatedAt": "2026-05-21T12:00:00.000Z"
+    },
+    {
+      "OrgID": "ORG-IKAN-01",
+      "YearLabel": "Year 24-25",
+      "SchStartDate": "2024-08-31",
+      "SchEndDate": "2025-05-31",
+      "IsActiveYear": "No",
+      "id": "Oj1IwysV9tk"
+    }
+  ],
+  "Employee": [
+    {
+      "id": "EMP-01",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Emily Advisor",
+      "EmployeePhone": "",
+      "Email": "Eaamoth@i-kan.org",
+      "EmployeeActive": "Yes",
+      "Role": "Advisor",
+      "DeptTruancyAccess": "No",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-02",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Jeff Super",
+      "EmployeePhone": "",
+      "Email": "jboudreau@i-kan.org",
+      "EmployeeActive": "Yes",
+      "Role": "SuperAdmin",
+      "DeptTruancyAccess": "Yes",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-09",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Teacher 2",
+      "EmployeePhone": "",
+      "Email": "Teacher2@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "Teacher",
+      "DeptTruancyAccess": "No",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-03",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Sara Admin",
+      "EmployeePhone": "",
+      "Email": "Sara@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "DeptAdmin",
+      "DeptTruancyAccess": "Yes",
+      "DeptSchoolsAccess": "No"
+    },
+    {
+      "id": "EMP-04",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Billings Teacher",
+      "EmployeePhone": "",
+      "Email": "Billings@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "Teacher",
+      "DeptTruancyAccess": "No",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-05",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Jennifer SocialWorker",
+      "EmployeePhone": "",
+      "Email": "Jennifer@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "SocialWorker",
+      "DeptTruancyAccess": "No",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-06",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Gabby ParaPro",
+      "EmployeePhone": "",
+      "Email": "Gabby@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "ParaPro",
+      "DeptTruancyAccess": "No",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-07",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Chris Secretary",
+      "EmployeePhone": "",
+      "Email": "Chris@domain.com",
+      "EmployeeActive": "",
+      "Role": "School Admin. Assist.",
+      "DeptTruancyAccess": "No",
+      "DeptSchoolsAccess": "Yes"
+    },
+    {
+      "id": "EMP-08",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Bradley Caseworker",
+      "EmployeePhone": "",
+      "Email": "Bradley@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "Caseworker",
+      "DeptTruancyAccess": "Yes",
+      "DeptSchoolsAccess": "No"
+    },
+    {
+      "id": "EMP-10",
+      "OrgID": "ORG-IKAN-01",
+      "EmployeeName": "Sara Admin. Assist.",
+      "EmployeePhone": "",
+      "Email": "Sara@domain.com",
+      "EmployeeActive": "Yes",
+      "Role": "Admin. Assist.",
+      "DeptTruancyAccess": "Yes",
+      "DeptSchoolsAccess": "No"
+    }
+  ],
+  "SchoolNames": [
+    {
+      "id": "SCH-01",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bourbonnais Elementary School District 53",
+      "SchoolName": "Alan Shepard School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Keri LaVoie",
+      "SchoolPhone": "(815) 929-4600",
+      "SchoolAddress1": "325 N. Convent",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bourbonnais",
+      "SchoolState": "IL",
+      "SchoolZip": "60914"
+    },
+    {
+      "id": "SCH-02",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bourbonnais Elementary School District 53",
+      "SchoolName": "Bourbonnais Upper Grade Center",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Jeremy Outsen",
+      "SchoolPhone": "(815) 929-5200",
+      "SchoolAddress1": "200 W. John Casey Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bourbonnais",
+      "SchoolState": "IL",
+      "SchoolZip": "60914"
+    },
+    {
+      "id": "SCH-03",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bourbonnais Elementary School District 53",
+      "SchoolName": "Liberty Intermediate School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Bret Pignatiello",
+      "SchoolPhone": "(815) 929-5000",
+      "SchoolAddress1": "1690 Career Center Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bourbonnais",
+      "SchoolState": "IL",
+      "SchoolZip": "60914"
+    },
+    {
+      "id": "SCH-04",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bourbonnais Elementary School District 53",
+      "SchoolName": "Noel LeVasseur",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Catherine Lark",
+      "SchoolPhone": "(815) 929-4500",
+      "SchoolAddress1": "601 Bethel Dr.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bourbonnais",
+      "SchoolState": "IL",
+      "SchoolZip": "60914"
+    },
+    {
+      "id": "SCH-05",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bourbonnais Elementary School District 53",
+      "SchoolName": "Shabbona School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Michelle Sobkoviak",
+      "SchoolPhone": "(815) 929-4700",
+      "SchoolAddress1": "321 N. Convent",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bourbonnais",
+      "SchoolState": "IL",
+      "SchoolZip": "60914"
+    },
+    {
+      "id": "SCH-06",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bradley School District 61",
+      "SchoolName": "Bradley Central School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Mark Kohl",
+      "SchoolPhone": "(815) 939-3564",
+      "SchoolAddress1": "260 N. Wabash",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bradley",
+      "SchoolState": "IL",
+      "SchoolZip": "60915"
+    },
+    {
+      "id": "SCH-07",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bradley School District 61",
+      "SchoolName": "Bradley East",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Anna Kirchner",
+      "SchoolPhone": "(815) 933-2233",
+      "SchoolAddress1": "610 E. Liberty St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bradley",
+      "SchoolState": "IL",
+      "SchoolZip": "60915"
+    },
+    {
+      "id": "SCH-08",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bradley School District 61",
+      "SchoolName": "Bradley West School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Trisha Anderson",
+      "SchoolPhone": "(815) 933-2216",
+      "SchoolAddress1": "200 West State St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bradley",
+      "SchoolState": "IL",
+      "SchoolZip": "60915"
+    },
+    {
+      "id": "SCH-09",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Bradley-Bourbonnais CHSD 307",
+      "SchoolName": "BBCHS",
+      "CreditsToGraduate": 16,
+      "SchoolContact": "Evan Tingley",
+      "SchoolPhone": "(815) 937-3707",
+      "SchoolAddress1": "700 W. North St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bradley",
+      "SchoolState": "IL",
+      "SchoolZip": "60915"
+    },
+    {
+      "id": "SCH-10",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Central CUSD 4",
+      "SchoolName": "Central High School",
+      "CreditsToGraduate": 26,
+      "SchoolContact": "Marc Shaner",
+      "SchoolPhone": "(815) 694-2321",
+      "SchoolAddress1": "1134 E 3100 N Road, Suite A",
+      "SchoolAddress2": "",
+      "SchoolCity": "Clifton",
+      "SchoolState": "IL",
+      "SchoolZip": "60927"
+    },
+    {
+      "id": "SCH-11",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Central CUSD 4",
+      "SchoolName": "Chebanse Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Meghan McFall",
+      "SchoolPhone": "(815) 697-2642",
+      "SchoolAddress1": "Box 8,475 School Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Chebanse",
+      "SchoolState": "IL",
+      "SchoolZip": "60922"
+    },
+    {
+      "id": "SCH-12",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Central CUSD 4",
+      "SchoolName": "John L. Nash Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Joshua Houberg",
+      "SchoolPhone": "(815) 694-2323",
+      "SchoolAddress1": "1134 E 3100 N Road, Suite B",
+      "SchoolAddress2": "",
+      "SchoolCity": "Clifton",
+      "SchoolState": "IL",
+      "SchoolZip": "60927"
+    },
+    {
+      "id": "SCH-13",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Cissna Park CUSD 6",
+      "SchoolName": "Cissna Park Elementary",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Wendy Niebuhr",
+      "SchoolPhone": "(815) 457-2171",
+      "SchoolAddress1": "511 N. Second",
+      "SchoolAddress2": "",
+      "SchoolCity": "Cissna Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60924"
+    },
+    {
+      "id": "SCH-14",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Cissna Park CUSD 6",
+      "SchoolName": "Cissna Park High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Mark Portwood",
+      "SchoolPhone": "(815) 457-2171",
+      "SchoolAddress1": "511 N. Second",
+      "SchoolAddress2": "",
+      "SchoolCity": "Cissna Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60924"
+    },
+    {
+      "id": "SCH-15",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Cissna Park CUSD 6",
+      "SchoolName": "Cissna Park Junior High School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Mark Portwood",
+      "SchoolPhone": "(815) 457-2171",
+      "SchoolAddress1": "511 N. Second",
+      "SchoolAddress2": "",
+      "SchoolCity": "Cissna Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60924"
+    },
+    {
+      "60928": "",
+      "id": "SCH-16",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Crescent Iroquois CUSD 252",
+      "SchoolName": "Crescent City Grade School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Jim Elledge",
+      "SchoolPhone": "(815) 683-2141",
+      "SchoolAddress1": "Box 130,410 Longshore",
+      "SchoolAddress2": "",
+      "SchoolCity": "Crescent City",
+      "SchoolState": "IL"
+    },
+    {
+      "id": "SCH-17",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Grant Park CUSD 6",
+      "SchoolName": "Grant Park Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Tracy Planeta",
+      "SchoolPhone": "(815) 465-2181",
+      "SchoolAddress1": "421 Esson Farm Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Grant Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60940"
+    },
+    {
+      "id": "SCH-18",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Grant Park CUSD 6",
+      "SchoolName": "Grant Park High School",
+      "CreditsToGraduate": 23,
+      "SchoolContact": "Kyle Miller",
+      "SchoolPhone": "(815) 465-2181",
+      "SchoolAddress1": "421 Esson Farm Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Grant Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60940"
+    },
+    {
+      "id": "SCH-19",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Grant Park CUSD 6",
+      "SchoolName": "Grant Park Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Kyle Miller",
+      "SchoolPhone": "(815) 465-2181",
+      "SchoolAddress1": "421 Esson Farm Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Grant Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60940"
+    },
+    {
+      "id": "SCH-20",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Herscher CUSD 2",
+      "SchoolName": "Bonfield Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Diane Shutter",
+      "SchoolPhone": "(815) 933-6995",
+      "SchoolAddress1": "5215 W. Grand St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bonfield",
+      "SchoolState": "IL",
+      "SchoolZip": "60913"
+    },
+    {
+      "id": "SCH-21",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Herscher CUSD 2",
+      "SchoolName": "Herscher High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Brad Elliot",
+      "SchoolPhone": "(815) 426-2103",
+      "SchoolAddress1": "501 N. Main St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Herscher",
+      "SchoolState": "IL",
+      "SchoolZip": "60941"
+    },
+    {
+      "id": "SCH-22",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Herscher CUSD 2",
+      "SchoolName": "Herscher Intermediate School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Diane Shutter",
+      "SchoolPhone": "(815) 426-2239",
+      "SchoolAddress1": "391 N. Main St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Herscher",
+      "SchoolState": "IL",
+      "SchoolZip": "60941"
+    },
+    {
+      "id": "SCH-23",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Herscher CUSD 2",
+      "SchoolName": "Limestone Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Michelle Marohl",
+      "SchoolPhone": "(815) 933-2243",
+      "SchoolAddress1": "963 N. 5000 W Road",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-24",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois County CUSD 9",
+      "SchoolName": "Glenn Raymond Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Jim Bunting",
+      "SchoolPhone": "(815) 432-2115",
+      "SchoolAddress1": "101 N. 5th St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Watseka",
+      "SchoolState": "IL",
+      "SchoolZip": "60970"
+    },
+    {
+      "id": "SCH-25",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois County CUSD 9",
+      "SchoolName": "Watseka Community High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Jim Bunting",
+      "SchoolPhone": "(815) 432-2486",
+      "SchoolAddress1": "138 S. Belmont Ave.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Watseka",
+      "SchoolState": "IL",
+      "SchoolZip": "60970"
+    },
+    {
+      "id": "SCH-26",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois County CUSD 9",
+      "SchoolName": "Wanda Kendall Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Megan Cluver",
+      "SchoolPhone": "(815) 432-4547",
+      "SchoolAddress1": "530 W. Mulberry St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Watseka",
+      "SchoolState": "IL",
+      "SchoolZip": "60970"
+    },
+    {
+      "id": "SCH-27",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois West CUSD 10",
+      "SchoolName": "Iroquois West Elementary School - Gilman",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Theresa Miller",
+      "SchoolPhone": "(815) 265-4211",
+      "SchoolAddress1": "400 S. Thomas St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Gilman",
+      "SchoolState": "IL",
+      "SchoolZip": "60938"
+    },
+    {
+      "id": "SCH-28",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois West CUSD 10",
+      "SchoolName": "Iroquois West Elementary School - Thawville",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Theresa Miller",
+      "SchoolPhone": "(217) 387-2291",
+      "SchoolAddress1": "410 W. Main St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Thawville",
+      "SchoolState": "IL",
+      "SchoolZip": "60968"
+    },
+    {
+      "id": "SCH-29",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois West CUSD 10",
+      "SchoolName": "Iroquois West High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Joshua Fox",
+      "SchoolPhone": "(815) 265-4229",
+      "SchoolAddress1": "529 E. Second St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Gilman",
+      "SchoolState": "IL",
+      "SchoolZip": "60938"
+    },
+    {
+      "id": "SCH-30",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois West CUSD 10",
+      "SchoolName": "Iroquois West Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Nicholas Harth",
+      "SchoolPhone": "(815) 268-7258",
+      "SchoolAddress1": "303 N. St. Charles",
+      "SchoolAddress2": "",
+      "SchoolCity": "Onarga",
+      "SchoolState": "IL",
+      "SchoolZip": "60955"
+    },
+    {
+      "id": "SCH-31",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Avis Huff Student Success Center",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Michele Sulaica",
+      "SchoolPhone": "(815) 802-4950",
+      "SchoolAddress1": "369 N. Fifth Ave.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-32",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Edison Primary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "William Cooper",
+      "SchoolPhone": "(815) 933-0715",
+      "SchoolAddress1": "1991 Edison Dr.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-33",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Kankakee High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Brent Johnston",
+      "SchoolPhone": "(815) 933-0740",
+      "SchoolAddress1": "1200 W. Jeffery St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-34",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Kankakee Junior High School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Michael Jenkins",
+      "SchoolPhone": "(815) 933-0730",
+      "SchoolAddress1": "2250 E. Crestwood St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-35",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Kennedy Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Melvina Simmons",
+      "SchoolPhone": "(815) 933-0720",
+      "SchoolAddress1": "1550 W. Calista St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-36",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "King Middle Grade School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Gretchen Scurlock",
+      "SchoolPhone": "(815) 933-0750",
+      "SchoolAddress1": "1440 E. Court St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-37",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Lincoln Cultural Center",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Ersula Gathing",
+      "SchoolPhone": "(815) 933-0760",
+      "SchoolAddress1": "240 Warren Ave.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-38",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Mark Twain Primary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "William Cooper",
+      "SchoolPhone": "(815) 933-0715",
+      "SchoolAddress1": "2250 Crestwood St",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-39",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Steuben Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "William Cooper",
+      "SchoolPhone": "(815) 933-0770",
+      "SchoolAddress1": "520 S. Wildwood Ave.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-40",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Kankakee SD 111",
+      "SchoolName": "Taft Primary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "William Cooper",
+      "SchoolPhone": "(815) 933-0715",
+      "SchoolAddress1": "1155 Taft Ave",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    },
+    {
+      "id": "SCH-41",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Manteno CUSD 5",
+      "SchoolName": "Manteno Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Cathleen Sues",
+      "SchoolPhone": "(815) 928-7200",
+      "SchoolAddress1": "551 W. Fifth St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Manteno",
+      "SchoolState": "IL",
+      "SchoolZip": "60950"
+    },
+    {
+      "id": "SCH-42",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Manteno CUSD 5",
+      "SchoolName": "Manteno High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Roger Schnitzler",
+      "SchoolPhone": "(815) 928-7100",
+      "SchoolAddress1": "443 N. Maple St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Manteno",
+      "SchoolState": "IL",
+      "SchoolZip": "60950"
+    },
+    {
+      "id": "SCH-43",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Manteno CUSD 5",
+      "SchoolName": "Manteno Middle School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "David Conrad",
+      "SchoolPhone": "(815) 928-7150",
+      "SchoolAddress1": "250 N. Maple St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Manteno",
+      "SchoolState": "IL",
+      "SchoolZip": "60950"
+    },
+    {
+      "id": "SCH-44",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Milford Area Public SD 124",
+      "SchoolName": "Milford Grade School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Michele Linden",
+      "SchoolPhone": "(815) 889-4174",
+      "SchoolAddress1": "100 S. West St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Milford",
+      "SchoolState": "IL",
+      "SchoolZip": "60953"
+    },
+    {
+      "id": "SCH-45",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Milford Area Public SD 124",
+      "SchoolName": "Milford High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Michele Linden",
+      "SchoolPhone": "(815) 889-4184",
+      "SchoolAddress1": "200 S. Chicago St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Milford",
+      "SchoolState": "IL",
+      "SchoolZip": "60953"
+    },
+    {
+      "id": "SCH-46",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Momence CUSD 1",
+      "SchoolName": "Je-Neir Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Jacklyn Salkeld",
+      "SchoolPhone": "(815) 472-6646",
+      "SchoolAddress1": "1001 W. 2nd St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Momence",
+      "SchoolState": "IL",
+      "SchoolZip": "60954"
+    },
+    {
+      "id": "SCH-47",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Momence CUSD 1",
+      "SchoolName": "Momence High School",
+      "CreditsToGraduate": 24,
+      "SchoolContact": "Paul High",
+      "SchoolPhone": "(815) 472-6477",
+      "SchoolAddress1": "101 N. Franklin St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Momence",
+      "SchoolState": "IL",
+      "SchoolZip": "60954"
+    },
+    {
+      "id": "SCH-48",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Momence CUSD 1",
+      "SchoolName": "Momence Junior High School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Paul High",
+      "SchoolPhone": "(815) 472-4151",
+      "SchoolAddress1": "801 W. 2nd St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Momence",
+      "SchoolState": "IL",
+      "SchoolZip": "60954"
+    },
+    {
+      "id": "SCH-49",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Pembroke CCSD 259",
+      "SchoolName": "Lorenzo R. Smith Elem School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Marie Crawford",
+      "SchoolPhone": "(815) 944-5219",
+      "SchoolAddress1": "4120 S. Main St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Hopkins Park",
+      "SchoolState": "IL",
+      "SchoolZip": "60944"
+    },
+    {
+      "60924": "",
+      "id": "SCH-50",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "RAsg CUSD 2",
+      "SchoolName": "RAsg High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Malcolm Hill",
+      "SchoolPhone": "(815) 457-2142",
+      "SchoolAddress1": "Box 187,314 N. 5th St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Cissna Park",
+      "SchoolState": "IL"
+    },
+    {
+      "60964": "",
+      "id": "SCH-51",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "St. Anne CCSD 256",
+      "SchoolName": "St. Anne Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Ramona Miller",
+      "SchoolPhone": "(815) 427-8153",
+      "SchoolAddress1": "Box 430,333 S. St. Louis",
+      "SchoolAddress2": "",
+      "SchoolCity": "St. Anne",
+      "SchoolState": "IL"
+    },
+    {
+      "60964": "",
+      "id": "SCH-52",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "St. Anne CHSD 302",
+      "SchoolName": "St. Anne Community High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Ramona Miller",
+      "SchoolPhone": "(815) 427-8141",
+      "SchoolAddress1": "Box 520,650 W. Guertin",
+      "SchoolAddress2": "",
+      "SchoolCity": "St. Anne",
+      "SchoolState": "IL"
+    },
+    {
+      "id": "SCH-53",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "St. George CCSD 258",
+      "SchoolName": "St. George Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Helen Boehrnsen",
+      "SchoolPhone": "(815) 933-1503",
+      "SchoolAddress1": "5200 E. Center St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Bourbonnais",
+      "SchoolState": "IL",
+      "SchoolZip": "60914"
+    },
+    {
+      "60946": "",
+      "id": "SCH-54",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Tri-Point CUSD 6-J",
+      "SchoolName": "Tri-Point Elementary School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Stephen Totheroh",
+      "SchoolPhone": "(815) 269-2248",
+      "SchoolAddress1": "Box 128,400 N. E. Fourth",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kempton",
+      "SchoolState": "IL"
+    },
+    {
+      "60929": "",
+      "id": "SCH-55",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Tri-Point CUSD 6-J",
+      "SchoolName": "Tri-Point High School",
+      "CreditsToGraduate": 22,
+      "SchoolContact": "Jeffery Bryan",
+      "SchoolPhone": "(815) 686-2247",
+      "SchoolAddress1": "Box 416,102 E. Section Line",
+      "SchoolAddress2": "",
+      "SchoolCity": "Cullom",
+      "SchoolState": "IL"
+    },
+    {
+      "60959": "",
+      "id": "SCH-56",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Tri-Point CUSD 6-J",
+      "SchoolName": "Tri-Point Junior High School",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Stephen Totheroh",
+      "SchoolPhone": "(815) 689-2181",
+      "SchoolAddress1": "Box 459,202 W. Allen St.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Piper City",
+      "SchoolState": "IL"
+    },
+    {
+      "id": "SCH-57",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois County CUSD 9",
+      "SchoolName": "Watseka Area Career Center",
+      "CreditsToGraduate": null,
+      "SchoolContact": "Jim Bunting",
+      "SchoolPhone": "(815) 432-5471",
+      "SchoolAddress1": "138 S. Belmont Ave.",
+      "SchoolAddress2": "",
+      "SchoolCity": "Watseka",
+      "SchoolState": "IL",
+      "SchoolZip": "60970"
+    },
+    {
+      "id": "SCH-58",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolDist": "Iroquois County",
+      "SchoolName": "SALT / ALOP / RAAC",
+      "CreditsToGraduate": 16,
+      "SchoolContact": "Jeff Boudreau",
+      "SchoolPhone": "(815) 936-4600",
+      "SchoolAddress1": "180 S. Dearborn",
+      "SchoolAddress2": "",
+      "SchoolCity": "Kankakee",
+      "SchoolState": "IL",
+      "SchoolZip": "60901"
+    }
+  ],
+  "CourseCatalog": [
+    {
+      "id": "CRS-001",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Algebra 1A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-002",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Algebra 1B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-003",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Biology A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-004",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Biology B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-005",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Civics w/Constitution",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-006",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Consumer Math A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-007",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Consumer Math B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-008",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 9A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-009",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 9B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-010",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 10A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-011",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 10B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-012",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 11A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-013",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 11B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-014",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 12A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-015",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 12B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-016",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Environmental Science A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-017",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Environmental Science B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-018",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Geometry A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-019",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Geometry B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-020",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Physical Science A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-021",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Physical Science B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-022",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "US History A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-023",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "US History B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-024",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "World History A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-025",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "World History B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "Yes",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-026",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Adult Living",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-027",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Art History",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-028",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Basic Studio Art",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-029",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Career Exploration",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-030",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Character Education",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-031",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Child Development",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-032",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Computer Literacy",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Information Technology",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-033",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Contemporary Issues",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-034",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Economics",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-035",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 9",
+      "CourseDescription": "",
+      "CourseCredits": 1,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-036",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 10",
+      "CourseDescription": "",
+      "CourseCredits": 1,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-037",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 11",
+      "CourseDescription": "",
+      "CourseCredits": 1,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-038",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 12",
+      "CourseDescription": "",
+      "CourseCredits": 1,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-039",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Film Evaluation",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-040",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Food & Nutrition",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-041",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Geography",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-042",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Health",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Health",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-043",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Holocaust Studies",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-044",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Introduction to Business",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-045",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Keyboarding",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Information Technology",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-046",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Life Skills",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-047",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Media Literacy",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-048",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Music Appreciation",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-049",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Mythology",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-050",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Parenting",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-051",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Personal Finance",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-052",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Psychology",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-053",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Sociology",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-054",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Street Law",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-055",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "US Government",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-056",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Workplace Skills",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-057",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "World Religions",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-058",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Math 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-059",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Math 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-060",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-061",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "English 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-062",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Science 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-063",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Science 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-064",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Social Studies 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-065",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Social Studies 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-066",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "PE 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-067",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "PE 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-068",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Health 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-069",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Health 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-070",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Art 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-071",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Art 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-072",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Computers 7",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-073",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Computers 8",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Jr High",
+      "CourseLevel": "Jr High",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-074",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Spanish A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-075",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Spanish B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Elective",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-076",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Pre-Algebra A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-077",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Pre-Algebra B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-078",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Algebra 2A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-079",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Algebra 2B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-080",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Earth Science A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-081",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Earth Science B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-082",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Chemistry A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-083",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Chemistry B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Life and Physical Sciences",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-084",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Geography A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-085",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Geography B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-086",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Sociology A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-087",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Sociology B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-088",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "IL Constitution",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-089",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "US Constitution",
+      "CourseDescription": "",
+      "CourseCredits": 0,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-090",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Health",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-091",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Speech",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-092",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Creative Writing",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-093",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Media Literacy",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "English Language and Literature",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-094",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Integrated Math 1A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-095",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Integrated Math 1B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-096",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Physical Science A",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "CRS-097",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Physical Science B",
+      "CourseDescription": "",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Social Sciences and History",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "IsActive": "Yes"
+    }
+  ],
+  "ReasonForExit": [
+    {
+      "id": "RFE-01",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Deceased",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-02",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Department of Corrections",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-03",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Dropout",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-04",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Excluded",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-05",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Home school",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-06",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Homebound",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-07",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Improved attendance",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-08",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Moved out of district",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-09",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Never enrolled in school",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-10",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "No longer needs TAOEP services",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-11",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Over 17",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-12",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Removed from the TAOEP",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-13",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Residential treatment facility",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-14",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Runaway",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-15",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Transferred to another program",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-16",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Transferred to court ordered program",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-17",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Transferred to GED program",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-18",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Transferred to private or parochial school",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-19",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Transferred to SALT",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "RFE-20",
+      "OrgID": "ORG-IKAN-01",
+      "ReasonLabel": "Unable to locate",
+      "IsActive": "Yes"
+    }
+  ],
+  "Characteristics": [
+    {
+      "id": "CHAR-01",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Low Income (as reported by school)"
+    },
+    {
+      "id": "CHAR-02",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Family member dropped out & no GED (Parent, Sibling)"
+    },
+    {
+      "id": "CHAR-03",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Single-parent family (only 1 adult in household)"
+    },
+    {
+      "id": "CHAR-04",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Family with high mobility rate (moved more than 2x in last 2 years)"
+    },
+    {
+      "id": "CHAR-05",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Student failing academically (failing 2 or more classes)"
+    },
+    {
+      "id": "CHAR-06",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Family member with substance issue (alcohol or drug)"
+    },
+    {
+      "id": "CHAR-07",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Student with substance abuse issue (needs or has had treatment this school year)"
+    },
+    {
+      "id": "CHAR-08",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Student - English as second language (Parent primarily speaks Spanish)"
+    },
+    {
+      "id": "CHAR-09",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Student pregnant or parenting this school year"
+    },
+    {
+      "id": "CHAR-10",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Low Achievement"
+    },
+    {
+      "id": "CHAR-11",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "High Failure Rate"
+    },
+    {
+      "id": "CHAR-12",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Teen Parent"
+    },
+    {
+      "id": "CHAR-13",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Credit Deficient"
+    },
+    {
+      "id": "CHAR-14",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Tardiness"
+    },
+    {
+      "id": "CHAR-15",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Physical or emotional health problems"
+    },
+    {
+      "id": "CHAR-16",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Court or Law mandated participation"
+    },
+    {
+      "id": "CHAR-17",
+      "OrgID": "ORG-IKAN-01",
+      "CharacteristicLabel": "Drugs and/or Alcohol"
+    }
+  ],
+  "OtherOutcomes": [
+    {
+      "id": "OUTC-01",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Dropped out of school"
+    },
+    {
+      "id": "OUTC-02",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Voluntarily Discontinued Program Participation"
+    },
+    {
+      "id": "OUTC-03",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Removed from TAOEP"
+    },
+    {
+      "id": "OUTC-04",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Moved out of the district"
+    },
+    {
+      "id": "OUTC-05",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Transferred to an Alternative Education Program"
+    },
+    {
+      "id": "OUTC-06",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Transferred to a GED Program"
+    },
+    {
+      "id": "OUTC-07",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Transferred to Private or Home Schooling"
+    },
+    {
+      "id": "OUTC-08",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Incarcerated"
+    },
+    {
+      "id": "OUTC-09",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Deceased"
+    },
+    {
+      "id": "OUTC-10",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Other Exit Reason"
+    },
+    {
+      "id": "OUTC-11",
+      "OrgID": "ORG-IKAN-01",
+      "OutcomeLabel": "Continuing in TAOEP next school year"
+    }
+  ],
+  "AcademicOutcomes": [
+    {
+      "id": "AOUT-01",
+      "OrgID": "ORG-IKAN-01",
+      "AcademicOutcomeLabel": "Graduated from High School"
+    },
+    {
+      "id": "AOUT-02",
+      "OrgID": "ORG-IKAN-01",
+      "AcademicOutcomeLabel": "Received GED Certificate"
+    },
+    {
+      "id": "AOUT-03",
+      "OrgID": "ORG-IKAN-01",
+      "AcademicOutcomeLabel": "Promoted to next Grade"
+    }
+  ],
+  "ActivitiesAndServices": [
+    {
+      "id": "SRV-01",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "A - Academic Instruction"
+    },
+    {
+      "id": "SRV-02",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "B - Academic Counseling"
+    },
+    {
+      "id": "SRV-03",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "C - GED Instruction"
+    },
+    {
+      "id": "SRV-04",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "D - Enrolled in Community College Course"
+    },
+    {
+      "id": "SRV-05",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "E - Enrolled in Evening School Classes"
+    },
+    {
+      "id": "SRV-06",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "F - Enrolled in Summer School Classes"
+    },
+    {
+      "id": "SRV-07",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "G - Tutoring"
+    },
+    {
+      "id": "SRV-08",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "H - Participation in Credit Recovery Program"
+    },
+    {
+      "id": "SRV-09",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "I - Court Related Services"
+    },
+    {
+      "id": "SRV-10",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "J - Day Care Service"
+    },
+    {
+      "id": "SRV-11",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "K - Health Related Service"
+    },
+    {
+      "id": "SRV-12",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "L - Home Visits"
+    },
+    {
+      "id": "SRV-13",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "M - Life Skills Training"
+    },
+    {
+      "id": "SRV-14",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "N - Mentoring"
+    },
+    {
+      "id": "SRV-15",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "O - Multi-Agency Staffing"
+    },
+    {
+      "id": "SRV-16",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "P - Parental Training/Involvement"
+    },
+    {
+      "id": "SRV-17",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "Q - Peer Support Group"
+    },
+    {
+      "id": "SRV-18",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "R - Placement/Referral into Alternative Placement"
+    },
+    {
+      "id": "SRV-19",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "S - Placement/Referral to Non-School Resource"
+    },
+    {
+      "id": "SRV-20",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "T - Psychological/Counseling Service"
+    },
+    {
+      "id": "SRV-21",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "U - Substance Abuse Treatment"
+    },
+    {
+      "id": "SRV-22",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "V - Transportation"
+    },
+    {
+      "id": "SRV-23",
+      "OrgID": "ORG-IKAN-01",
+      "ServiceLabel": "W - Work-Based Learning/Job Training"
+    }
+  ],
+  "SubjectRequirements": [
+    {
+      "id": "REQ-01",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Elective",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": null
+    },
+    {
+      "id": "REQ-02",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "English Language and Literature",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 8
+    },
+    {
+      "id": "REQ-03",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Social Sciences and History",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 4
+    },
+    {
+      "id": "REQ-04",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Civics",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 0.5
+    },
+    {
+      "id": "REQ-05",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Information Technology",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 2
+    },
+    {
+      "id": "REQ-06",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Mathematics",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 6
+    },
+    {
+      "id": "REQ-07",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Life and Physical Sciences",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 4
+    },
+    {
+      "id": "REQ-08",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Jr High",
+      "StateRequired": "No",
+      "StateCreditsRequired": null
+    },
+    {
+      "id": "REQ-09",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Health",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 0.5
+    },
+    {
+      "id": "REQ-10",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "US Constitution",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 0
+    },
+    {
+      "id": "REQ-11",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "IL Constitution",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 0
+    },
+    {
+      "id": "REQ-12",
+      "OrgID": "ORG-IKAN-01",
+      "SubjectMatter": "Health",
+      "StateRequired": "Yes",
+      "StateCreditsRequired": 0.5
+    }
+  ],
+  "STUDENTS": [
+    {
+      "id": "9c7ed68e-3b6a-4586-82aa-609e2e6af68e",
+      "OrgID": "ORG-01",
+      "StudentID": 900000,
+      "StudentFirstName": "Alex",
+      "StudentLastName": "Johnson",
+      "GradeLevel": "10",
+      "StudentSex": "Male",
+      "HomeSchool": "SCH-33",
+      "Hybrid": "No",
+      "ParentSignedIOEP": "Yes",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-26T18:11:17.443Z",
+      "UpdatedAt": "2026-05-26T18:11:17.443Z",
+      "AuditComplete": "Yes",
+      "Dashboard": "Schools"
+    },
+    {
+      "id": "715e8213-a7bc-492a-a95e-38ab0aaf13d2",
+      "OrgID": "ORG-01",
+      "StudentID": 900001,
+      "StudentFirstName": "Maria",
+      "StudentLastName": "Garcia",
+      "GradeLevel": "9",
+      "StudentSex": "Female",
+      "HomeSchool": "SCH-33",
+      "Hybrid": "No",
+      "ParentSignedIOEP": "Yes",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-26T18:11:17.443Z",
+      "UpdatedAt": "2026-05-26T18:11:17.443Z",
+      "AuditComplete": "Yes",
+      "Dashboard": "Schools"
+    },
+    {
+      "id": "700159a2-0f2e-4cc8-8e9b-b6dc46e71d5f",
+      "OrgID": "ORG-01",
+      "StudentID": 900002,
+      "StudentFirstName": "James",
+      "StudentLastName": "Smith",
+      "GradeLevel": "11",
+      "StudentSex": "Male",
+      "HomeSchool": "SCH-33",
+      "Hybrid": "No",
+      "ParentSignedIOEP": "Yes",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-26T18:11:17.443Z",
+      "UpdatedAt": "2026-05-26T18:11:17.443Z",
+      "Dashboard": "Schools"
+    },
+    {
+      "id": "7d8d31c9-8737-48f5-ba2a-461ee2862fcd",
+      "OrgID": "ORG-01",
+      "StudentID": 900003,
+      "StudentFirstName": "Linda",
+      "StudentLastName": "Brown",
+      "GradeLevel": "12",
+      "StudentSex": "Female",
+      "HomeSchool": "SCH-33",
+      "Hybrid": "No",
+      "ParentSignedIOEP": "Yes",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-26T18:11:17.443Z",
+      "UpdatedAt": "2026-05-26T18:11:17.443Z",
+      "Dashboard": "Schools"
+    },
+    {
+      "id": "485b3834-0602-42d2-be6c-44dc22cf9440",
+      "OrgID": "ORG-01",
+      "StudentID": 900004,
+      "StudentFirstName": "David",
+      "StudentLastName": "Lee",
+      "GradeLevel": "10",
+      "StudentSex": "Male",
+      "HomeSchool": "SCH-33",
+      "Hybrid": "No",
+      "ParentSignedIOEP": "Yes",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-26T18:11:17.443Z",
+      "UpdatedAt": "2026-05-26T18:11:17.443Z",
+      "Dashboard": "Schools"
+    },
+    {
+      "StudentFirstName": "Jane",
+      "StudentLastName": "Dow",
+      "StudentMid": "",
+      "GradeLevel": "9th",
+      "HomeSchool": "SCH-09",
+      "StudentBirthdate": "",
+      "StudentSex": "Male",
+      "StudentAddress": "",
+      "StudentCity": "",
+      "StudentState": "IL",
+      "StudentZip": "",
+      "id": "oNAmPw3_DOM",
+      "Status": "Enrolled",
+      "AuditComplete": "No",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-27T13:07:41.920Z",
+      "UpdatedAt": "2026-05-27T13:07:41.920Z",
+      "Dashboard": "Schools"
+    },
+    {
+      "StudentFirstName": "kevin",
+      "StudentLastName": "student",
+      "StudentMid": "",
+      "GradeLevel": "9th",
+      "HomeSchool": "SCH-25",
+      "SchoolsProgram": "SALT",
+      "StudentBirthdate": "",
+      "StudentSex": "Male",
+      "StudentAddress": "",
+      "StudentCity": "",
+      "StudentState": "IL",
+      "StudentZip": "",
+      "id": "N7VwBtu9yUA",
+      "Status": "Enrolled",
+      "AuditComplete": "No",
+      "ConstitutionPass": "No",
+      "CreatedAt": "2026-05-27T13:48:49.337Z",
+      "UpdatedAt": "2026-05-27T13:48:49.337Z",
+      "Dashboard": "Schools"
+    },
+    {
+      "StudentID": 846846,
+      "StudentFirstName": "Old Student",
+      "StudentLastName": "Old Student",
+      "GradeLevel": "9",
+      "HomeSchool": "SCH-29",
+      "StudentSex": "Male",
+      "Hybrid": "Yes",
+      "DaysSchedule": [
+        "Monday"
+      ],
+      "Employed": "Yes",
+      "StudentTeacher": "EMP-04",
+      "StudentSocialWorker": "EMP-05",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "SchoolsProgram": "SALT",
+      "id": "pefOj1w6FiQ",
+      "AuditComplete": "No",
+      "CreatedAt": "2026-05-27T15:39:55.071Z",
+      "UpdatedAt": "2026-05-27T15:39:55.071Z",
+      "Dashboard": "Schools"
+    },
+    {
+      "StudentID": 433656,
+      "StudentFirstName": "Old Student",
+      "StudentLastName": "Old Student",
+      "GradeLevel": "9",
+      "HomeSchool": "SCH-18",
+      "StudentSex": "Male",
+      "Hybrid": "No",
+      "DaysSchedule": [],
+      "Employed": "Yes",
+      "StudentTeacher": "EMP-09",
+      "StudentSocialWorker": "EMP-05",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "SchoolsProgram": "SALT",
+      "id": "YZWnMxXMUfo",
+      "AuditComplete": "Yes",
+      "CreatedAt": "2026-05-27T15:48:40.533Z",
+      "UpdatedAt": "2026-05-27T15:55:35.549Z",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "Dashboard": "Schools"
+    },
+    {
+      "StudentID": 614558,
+      "StudentFirstName": "Old Student 2",
+      "StudentLastName": "Old Student 2",
+      "GradeLevel": "10",
+      "HomeSchool": "SCH-14",
+      "StudentSex": "Female",
+      "Hybrid": "No",
+      "DaysSchedule": [],
+      "Employed": "No",
+      "StudentTeacher": "EMP-09",
+      "StudentSocialWorker": "EMP-05",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "SchoolsProgram": "SALT",
+      "id": "fZmCVSHG1Tk",
+      "AuditComplete": "Yes",
+      "CreatedAt": "2026-05-27T16:06:53.651Z",
+      "UpdatedAt": "2026-05-27T16:07:36.452Z",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "Dashboard": "Schools"
+    },
+    {
+      "StudentFirstName": "Arionna",
+      "StudentLastName": "Zaragoza",
+      "StudentMid": "",
+      "StudentBirthdate": "2013-07-08",
+      "StudentSex": "Female",
+      "StudentEthnicity": "White",
+      "StudentAddress": "5765 W 1000 N Rd",
+      "StudentCity": "Kankakee",
+      "StudentState": "IL",
+      "StudentZip": "60901",
+      "GradeLevel": "7",
+      "HomeSchool": "SCH-23",
+      "StudentPrimaryReferral": "Chronic Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "",
+      "PreAttendancePresent": 71,
+      "PreAttendanceAbsent": 15,
+      "PreAttendanceExcused": 3,
+      "PreAttendanceUnexcused": 12,
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 33,
+      "LastYearsUnexcused": 0,
+      "id": "OQGwnwBtzus",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-27T18:58:44.049Z",
+      "UpdatedAt": "2026-05-27T18:58:44.049Z"
+    },
+    {
+      "StudentFirstName": "Jeffrey",
+      "StudentLastName": "Dow",
+      "StudentMid": "D",
+      "StudentBirthdate": "2001-01-01",
+      "StudentSex": "Male",
+      "StudentEthnicity": "American Indian or Alaska Native",
+      "StudentAddress": "1 Stuart Drive",
+      "StudentCity": "Kankakee",
+      "StudentState": "IL",
+      "StudentZip": "60901",
+      "GradeLevel": "11",
+      "HomeSchool": "SCH-33",
+      "StudentPrimaryReferral": "Yes",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "No Comments",
+      "PreAttendancePresent": "020",
+      "PreAttendanceAbsent": "30",
+      "PreAttendanceExcused": "2",
+      "PreAttendanceUnexcused": "5",
+      "PreAttendanceSuspended": "2",
+      "PreAttendanceTardy": "2",
+      "LastYearsUnexcused": 0,
+      "id": "0qU2stv8zas",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-27T19:04:02.901Z",
+      "UpdatedAt": "2026-05-27T19:04:02.901Z"
+    },
+    {
+      "StudentFirstName": "sara",
+      "StudentLastName": "christensen",
+      "StudentMid": "",
+      "StudentBirthdate": "2020-02-02",
+      "StudentSex": "Female",
+      "StudentEthnicity": "White",
+      "StudentAddress": "670 S Rutledge",
+      "StudentCity": "Kankakee",
+      "StudentState": "IL",
+      "StudentZip": "60901",
+      "GradeLevel": "K",
+      "HomeSchool": "SCH-41",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "No",
+      "FamilyComment": "",
+      "PreAttendancePresent": 50,
+      "PreAttendanceAbsent": 20,
+      "PreAttendanceExcused": 3,
+      "PreAttendanceUnexcused": 17,
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 10,
+      "LastYearsUnexcused": 0,
+      "id": "w9R6VMy9RYk",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-27T19:41:43.717Z",
+      "UpdatedAt": "2026-05-27T19:41:43.717Z"
+    },
+    {
+      "StudentFirstName": "jordyn",
+      "StudentLastName": "clark",
+      "StudentMid": "",
+      "StudentBirthdate": "2020-02-23",
+      "StudentSex": "Female",
+      "StudentEthnicity": "Two or More Races",
+      "StudentAddress": "1 stuart Dr",
+      "StudentCity": "Kankakee",
+      "StudentState": "IL",
+      "StudentZip": "60901",
+      "GradeLevel": "4",
+      "HomeSchool": "SCH-20",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Potential Dropout",
+      "ParentSignedIOEP": "No",
+      "ReasonNoIOEP": "parent not available",
+      "TransportationConsent": "No",
+      "FamilyComment": "",
+      "PreAttendancePresent": "0100",
+      "PreAttendanceAbsent": "35",
+      "PreAttendanceExcused": "10",
+      "PreAttendanceUnexcused": "25",
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": "50",
+      "LastYearsUnexcused": 0,
+      "id": "DeiA9I4z_OM",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-27T19:50:43.146Z",
+      "UpdatedAt": "2026-05-27T19:50:43.146Z"
+    },
+    {
+      "StudentFirstName": "Harley",
+      "StudentLastName": "Valdez",
+      "StudentMid": "",
+      "StudentBirthdate": "2012-12-16",
+      "StudentSex": "Female",
+      "StudentEthnicity": "Two or More Races",
+      "StudentAddress": "1197 w lotus ln",
+      "StudentCity": "kankakee",
+      "StudentState": "IL",
+      "StudentZip": "60901",
+      "GradeLevel": "7",
+      "HomeSchool": "SCH-23",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "",
+      "PreAttendancePresent": 50,
+      "PreAttendanceAbsent": 12,
+      "PreAttendanceExcused": 11,
+      "PreAttendanceUnexcused": 1,
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 0,
+      "LastYearsUnexcused": 0,
+      "id": "cetlyj5gf8Y",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-27T21:08:06.246Z",
+      "UpdatedAt": "2026-05-27T21:08:06.246Z"
+    },
+    {
+      "StudentFirstName": "Alicia",
+      "StudentLastName": "Valdez",
+      "StudentMid": "",
+      "StudentBirthdate": "2014-05-20",
+      "StudentSex": "Female",
+      "StudentEthnicity": "Two or More Races",
+      "StudentAddress": "1197 w lotus ln",
+      "StudentCity": "Kankakee",
+      "StudentState": "IL",
+      "StudentZip": "60901",
+      "GradeLevel": "6",
+      "HomeSchool": "SCH-23",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "",
+      "PreAttendancePresent": 41,
+      "PreAttendanceAbsent": 21,
+      "PreAttendanceExcused": 15,
+      "PreAttendanceUnexcused": 6,
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 0,
+      "LastYearsUnexcused": 0,
+      "id": "ylaoPZY_BIs",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-27T21:18:45.698Z",
+      "UpdatedAt": "2026-05-27T21:18:45.698Z"
+    },
+    {
+      "StudentFirstName": "Jeffrey",
+      "StudentLastName": "Boudreau",
+      "StudentMid": "J",
+      "StudentBirthdate": "2001-01-01",
+      "StudentSex": "Male",
+      "StudentEthnicity": "Hispanic/Latino",
+      "StudentAddress": "214 E Walnut Ave",
+      "StudentCity": "Herscher",
+      "StudentState": "IL",
+      "StudentZip": "60941",
+      "GradeLevel": "10",
+      "HomeSchool": "SCH-09",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "",
+      "PreAttendancePresent": 0,
+      "PreAttendanceAbsent": 0,
+      "PreAttendanceExcused": 0,
+      "PreAttendanceUnexcused": 0,
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 0,
+      "LastYearsUnexcused": 0,
+      "id": "J12TqKvlWXg",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-28T13:01:18.999Z",
+      "UpdatedAt": "2026-05-28T13:01:18.999Z"
+    },
+    {
+      "StudentFirstName": "Jeffrey",
+      "StudentLastName": "Boudreau",
+      "StudentMid": "3",
+      "StudentBirthdate": "1970-01-23",
+      "StudentSex": "Male",
+      "StudentEthnicity": "White",
+      "StudentAddress": "214 E Walnut Ave",
+      "StudentCity": "Herscher",
+      "StudentState": "IL",
+      "StudentZip": "60941",
+      "GradeLevel": "10",
+      "HomeSchool": "SCH-25",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "Got No idea",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "This is a Family Comment",
+      "PreAttendancePresent": 0,
+      "PreAttendanceAbsent": 0,
+      "PreAttendanceExcused": 0,
+      "PreAttendanceUnexcused": 0,
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 0,
+      "LastYearsUnexcused": 0,
+      "id": "5KKDljvtDXY",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-28T13:04:42.345Z",
+      "UpdatedAt": "2026-05-28T13:04:42.345Z"
+    },
+    {
+      "StudentID": 435126,
+      "StudentFirstName": "Emily",
+      "StudentLastName": "Aamoth",
+      "GradeLevel": "12",
+      "HomeSchool": "SCH-09",
+      "StudentSex": "Female",
+      "Hybrid": "No",
+      "DaysSchedule": [],
+      "Employed": "No",
+      "StudentTeacher": "EMP-04",
+      "StudentSocialWorker": "EMP-05",
+      "Status": "Returned to District",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "SchoolsProgram": "RAAC",
+      "id": "E_I3nVm7jQ4",
+      "AuditComplete": "No",
+      "CreatedAt": "2026-05-28T14:18:04.362Z",
+      "UpdatedAt": "2026-05-29T15:15:28.494Z",
+      "SchoolYearID": "SY-2025-2026"
+    },
+    {
+      "StudentFirstName": "Evan",
+      "StudentLastName": "Schneider",
+      "StudentMid": "",
+      "StudentBirthdate": "2009-02-01",
+      "StudentSex": "Male",
+      "StudentEthnicity": "White",
+      "StudentAddress": "123 testing lane",
+      "StudentCity": "kankakee",
+      "StudentState": "il",
+      "StudentZip": "60901",
+      "GradeLevel": "11",
+      "HomeSchool": "SCH-21",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Chronic Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "",
+      "TransportationConsent": "No",
+      "FamilyComment": "",
+      "PreAttendanceTotal": "0130",
+      "PreAttendancePresent": "75",
+      "PreAttendanceAbsent": "55",
+      "PreAttendanceExcused": "31",
+      "PreAttendanceUnexcused": "24",
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": 0,
+      "LastYearsUnexcused": 0,
+      "id": "jyJZEUFFSD4",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-28T16:03:13.940Z",
+      "UpdatedAt": "2026-05-28T16:03:13.940Z"
+    },
+    {
+      "StudentFirstName": "Smollen",
+      "StudentLastName": "Keegan",
+      "StudentMid": "",
+      "StudentBirthdate": "2000-10-10",
+      "StudentSex": "Male",
+      "StudentEthnicity": "White",
+      "StudentAddress": "home",
+      "StudentCity": "city",
+      "StudentState": "IL",
+      "StudentZip": "60606",
+      "GradeLevel": "7",
+      "HomeSchool": "SCH-23",
+      "CaseWorker": "EMP-08",
+      "StudentPrimaryReferral": "Truant",
+      "ParentSignedIOEP": "Yes",
+      "ReasonNoIOEP": "noreasion for No ioep",
+      "TransportationConsent": "Yes",
+      "FamilyComment": "I have no family comments",
+      "PreAttendanceTotal": "58",
+      "PreAttendancePresent": "48",
+      "PreAttendanceAbsent": "10",
+      "PreAttendanceExcused": "1",
+      "PreAttendanceUnexcused": "9",
+      "PreAttendanceSuspended": 0,
+      "PreAttendanceTardy": "1",
+      "LastYearsUnexcused": 0,
+      "id": "y4X6nXt8ycQ",
+      "Dashboard": "Truancy",
+      "CreatedAt": "2026-05-28T16:03:58.100Z",
+      "UpdatedAt": "2026-05-28T16:03:58.100Z"
+    },
+    {
+      "StudentID": 597408,
+      "StudentFirstName": "Candace",
+      "StudentLastName": "Wells",
+      "GradeLevel": "12",
+      "HomeSchool": "SCH-10",
+      "StudentSex": "Male",
+      "Hybrid": "No",
+      "DaysSchedule": [],
+      "Employed": "Yes",
+      "StudentTeacher": "EMP-04",
+      "StudentSocialWorker": "EMP-05",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "SchoolsProgram": "RAAC",
+      "id": "ltQkNNyGhNE",
+      "AuditComplete": "No",
+      "CreatedAt": "2026-05-29T15:13:07.710Z",
+      "UpdatedAt": "2026-05-29T15:16:43.548Z",
+      "SchoolYearID": "SY-2025-2026"
+    },
+    {
+      "StudentID": 861533,
+      "StudentFirstName": "jeff",
+      "StudentLastName": "boudreau",
+      "GradeLevel": "10",
+      "HomeSchool": "SCH-14",
+      "StudentSex": "Male",
+      "Hybrid": "No",
+      "DaysSchedule": [],
+      "Employed": "No",
+      "StudentTeacher": "",
+      "StudentSocialWorker": "",
+      "Status": "Enrolled",
+      "Session": "Full Day",
+      "ConstitutionPass": "No",
+      "SchoolsProgram": "RAAC",
+      "id": "w4gbGXxmEyA",
+      "AuditComplete": "No",
+      "CreatedAt": "2026-05-29T19:53:37.625Z",
+      "UpdatedAt": "2026-05-29T19:53:37.625Z"
+    }
+  ],
+  "StudentSchoolYear": [
+    {
+      "id": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "StudentRecordID": "9c7ed68e-3b6a-4586-82aa-609e2e6af68e",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 7697,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2026-05-26",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "6agA3_dXDHw",
+      "OrgID": "ORG-01",
+      "StudentRecordID": "9c7ed68e-3b6a-4586-82aa-609e2e6af68e",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 5838,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2026-05-26",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "rIZAvectomc",
+      "OrgID": "ORG-01",
+      "StudentRecordID": "715e8213-a7bc-492a-a95e-38ab0aaf13d2",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 3127,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "9",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "HbZUT9zNmu4",
+      "OrgID": "ORG-01",
+      "StudentRecordID": "715e8213-a7bc-492a-a95e-38ab0aaf13d2",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 3769,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "9",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "gNBeka87MOE",
+      "StudentRecordID": "oNAmPw3_DOM",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 8104,
+      "SchoolID": "SCH-09",
+      "GradeLevel": "9th",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "nkipldEkMp0",
+      "StudentRecordID": "oNAmPw3_DOM",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 8838,
+      "SchoolID": "SCH-09",
+      "GradeLevel": "9th",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "lKJ5DmW2BVk",
+      "OrgID": "ORG-01",
+      "StudentRecordID": "7d8d31c9-8737-48f5-ba2a-461ee2862fcd",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 8848,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "12",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "dQk7AlY1HQ4",
+      "OrgID": "ORG-01",
+      "StudentRecordID": "7d8d31c9-8737-48f5-ba2a-461ee2862fcd",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 4002,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "12",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "YdniOu2hfcc",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "917764e8-ae5b-42cc-ad50-8d9121422024",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "CaseNo": 1158,
+      "SchoolID": "SCH-29",
+      "GradeLevel": "9",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T15:39:55.071Z",
+      "UpdatedAt": "2026-05-27T15:39:55.071Z"
+    },
+    {
+      "id": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "YZWnMxXMUfo",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 1076,
+      "SchoolID": "SCH-18",
+      "GradeLevel": "9",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T15:48:40.546Z",
+      "UpdatedAt": "2026-05-27T15:55:35.555Z"
+    },
+    {
+      "id": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "fZmCVSHG1Tk",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 9836,
+      "SchoolID": "SCH-14",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T16:06:53.667Z",
+      "UpdatedAt": "2026-05-27T16:07:36.466Z"
+    },
+    {
+      "id": "ALB14HW0_5Y",
+      "StudentRecordID": "pefOj1w6FiQ",
+      "SchoolYearID": "SY-CURRENT",
+      "CaseNo": 7849,
+      "SchoolID": "SCH-29",
+      "GradeLevel": "9",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "7ELyhhbN0zE",
+      "StudentRecordID": "pefOj1w6FiQ",
+      "SchoolYearID": "SY-CURRENT",
+      "CaseNo": 3806,
+      "SchoolID": "SCH-29",
+      "GradeLevel": "9",
+      "SchoolEntryDate": "2026-05-27",
+      "CreditsEarned": 0
+    },
+    {
+      "id": "PuuB8bXiEjM",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "cac461f1-7524-400e-8949-4b0839fa9949",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 7562,
+      "SchoolID": "SCH-23",
+      "GradeLevel": "7",
+      "SchoolEntryDate": "2025-08-18",
+      "SecondaryReferral": [],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T18:58:44.063Z",
+      "UpdatedAt": "2026-05-27T18:58:44.063Z"
+    },
+    {
+      "id": "JtOmnSXdPKM",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "ed749b51-892d-40e6-a6b9-1b1033f973e4",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 4189,
+      "SchoolID": "SCH-33",
+      "GradeLevel": "11",
+      "SchoolEntryDate": "2026-05-27",
+      "SecondaryReferral": [
+        "Low Achievement",
+        "Teen Parent"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T19:04:02.914Z",
+      "UpdatedAt": "2026-05-27T19:04:02.914Z"
+    },
+    {
+      "id": "EGnnBj2ZEkk",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "9cad4726-fc0a-4480-ad18-ba5637dd8083",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 6750,
+      "SchoolID": "SCH-41",
+      "GradeLevel": "K",
+      "SchoolEntryDate": "2025-08-27",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Achievement",
+        "Teen Parent"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T19:41:43.725Z",
+      "UpdatedAt": "2026-05-27T19:41:43.725Z"
+    },
+    {
+      "id": "_AQAhtf2EWo",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "1e135012-f411-4ba1-a791-5d70fa66011f",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 8458,
+      "SchoolID": "SCH-20",
+      "GradeLevel": "4",
+      "SchoolEntryDate": "2025-08-27",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Credit Deficient",
+        "Low Income"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T19:50:43.161Z",
+      "UpdatedAt": "2026-05-27T19:50:43.161Z"
+    },
+    {
+      "id": "pk_mPyHHgJI",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "c30a84cd-c453-4c60-96ca-bd028bdc6b57",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 7580,
+      "SchoolID": "SCH-23",
+      "GradeLevel": "7",
+      "SchoolEntryDate": "2025-08-20",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T21:08:06.256Z",
+      "UpdatedAt": "2026-05-27T21:08:06.256Z"
+    },
+    {
+      "id": "Z950651tXlE",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "90e1a08e-7832-4868-8a2f-c079b6094e70",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 2880,
+      "SchoolID": "SCH-23",
+      "GradeLevel": "6",
+      "SchoolEntryDate": "2025-08-20",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Physical or emotional health problems",
+        "Low Income"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-27T21:18:45.710Z",
+      "UpdatedAt": "2026-05-27T21:18:45.710Z"
+    },
+    {
+      "id": "U1boky2OxPw",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "8104d86b-0b6d-48f5-bafc-f48765bbd6fb",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 5034,
+      "SchoolID": "SCH-09",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2025-01-01",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Achievement",
+        "Teen Parent",
+        "Tardiness",
+        "Physical or emotional health problems",
+        "Drugs AndOr Alcohol"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T13:01:19.009Z",
+      "UpdatedAt": "2026-05-28T13:01:19.009Z"
+    },
+    {
+      "id": "hridOraGiYo",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "5ac446f7-de62-41d6-817a-ee205887247c",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 49,
+      "SchoolID": "SCH-25",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2026-05-28",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Achievement"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T13:04:42.356Z",
+      "UpdatedAt": "2026-05-28T13:04:42.356Z"
+    },
+    {
+      "id": "U2wQaN81QTc",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "OQGwnwBtzus",
+      "SchoolYearID": "SY-2025-2026",
+      "SchoolID": "SCH-23",
+      "GradeLevel": "7",
+      "SchoolEntryDate": "2025-08-20",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Income",
+        "Tardiness"
+      ],
+      "UpdatedAt": "2026-05-28T15:21:21.533Z"
+    },
+    {
+      "id": "BMZl1-ynuTA",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "5KKDljvtDXY",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 3545,
+      "SchoolID": "SCH-25",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2025-01-01",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Achievement",
+        "Teen Parent",
+        "Tardiness"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T13:09:14.626Z",
+      "UpdatedAt": "2026-05-28T13:09:14.626Z"
+    },
+    {
+      "id": "V6wavmuT-II",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "E_I3nVm7jQ4",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 6907,
+      "SchoolID": "SCH-09",
+      "GradeLevel": "12",
+      "SchoolEntryDate": "2026-05-28",
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T14:18:04.386Z",
+      "UpdatedAt": "2026-05-28T14:18:04.386Z"
+    },
+    {
+      "id": "rfZB5aUM2Gs",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "ylaoPZY_BIs",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 2447,
+      "SchoolID": "SCH-23",
+      "GradeLevel": "6",
+      "SchoolEntryDate": "2025-08-08",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Income"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T14:54:17.853Z",
+      "UpdatedAt": "2026-05-28T14:54:17.853Z"
+    },
+    {
+      "id": "-wwiwPoTBmY",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "w9R6VMy9RYk",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 6326,
+      "SchoolID": "SCH-41",
+      "GradeLevel": "K",
+      "SchoolEntryDate": "2025-08-28",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T15:22:45.108Z",
+      "UpdatedAt": "2026-05-28T15:22:45.108Z"
+    },
+    {
+      "id": "A6hJwwxAcTw",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "cetlyj5gf8Y",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 1334,
+      "SchoolID": "SCH-23",
+      "GradeLevel": "7",
+      "SchoolEntryDate": "2025-08-20",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T15:23:49.671Z",
+      "UpdatedAt": "2026-05-28T15:23:49.671Z"
+    },
+    {
+      "id": "Dx6Bk_Yx_3U",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "67bd47b0-f7ce-4d58-a307-06f60e03a028",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 7693,
+      "SchoolID": "SCH-21",
+      "GradeLevel": "11",
+      "SchoolEntryDate": "2025-08-20",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Tardiness"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T16:03:13.964Z",
+      "UpdatedAt": "2026-05-28T16:03:13.964Z"
+    },
+    {
+      "id": "LNaJUYax-hE",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "5392f477-4f7b-4728-9e38-0ee2189fb349",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "CaseNo": 4751,
+      "SchoolID": "SCH-23",
+      "GradeLevel": "7",
+      "SchoolEntryDate": "2024-09-01",
+      "CaseWorker": "EMP-08",
+      "SecondaryReferral": [
+        "Low Achievement",
+        "Teen Parent",
+        "Tardiness"
+      ],
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-28T16:03:58.113Z",
+      "UpdatedAt": "2026-05-28T16:03:58.113Z"
+    },
+    {
+      "id": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "ltQkNNyGhNE",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 7659,
+      "SchoolID": "SCH-10",
+      "GradeLevel": "12",
+      "SchoolEntryDate": "2026-05-29",
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-29T15:13:07.742Z",
+      "UpdatedAt": "2026-05-29T15:13:07.742Z"
+    },
+    {
+      "id": "puJ9CtgTsc8",
+      "OrgID": "ORG-IKAN-01",
+      "StudentRecordID": "w4gbGXxmEyA",
+      "SchoolYearID": "SY-2025-2026",
+      "CaseNo": 7,
+      "SchoolID": "SCH-14",
+      "GradeLevel": "10",
+      "SchoolEntryDate": "2026-05-29",
+      "CreditsEarned": 0,
+      "CreatedAt": "2026-05-29T19:53:37.634Z",
+      "UpdatedAt": "2026-05-29T19:53:37.634Z"
+    }
+  ],
+  "StudentCourses": [
+    {
+      "id": "Z8q8w24LHmY",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-008",
+      "Year": "Current",
+      "Status": "Completed",
+      "CreatedAt": "2026-05-26T19:55:47.684Z",
+      "UpdatedAt": "2026-05-26T19:55:47.684Z"
+    },
+    {
+      "id": "aZFTyCkqeDk",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-009",
+      "Year": "Current",
+      "Status": null,
+      "CreatedAt": "2026-05-26T19:55:48.474Z",
+      "UpdatedAt": "2026-05-26T19:55:48.474Z"
+    },
+    {
+      "id": "zpF4L5L5XFI",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-001",
+      "Year": "Current",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-26T20:06:31.980Z",
+      "UpdatedAt": "2026-05-26T20:06:31.980Z",
+      "Enrolled": "No",
+      "Status": null
+    },
+    {
+      "id": "C8_Zxc2D2Gw",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-003",
+      "Year": "Current",
+      "Status": null,
+      "CreatedAt": "2026-05-26T20:11:18.743Z",
+      "UpdatedAt": "2026-05-26T20:11:18.743Z",
+      "Enrolled": "Yes",
+      "RecommendNext": "No"
+    },
+    {
+      "id": "kYVLcY1xQjE",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-004",
+      "Year": "Current",
+      "Enrolled": "Yes",
+      "CreatedAt": "2026-05-26T20:11:33.858Z",
+      "UpdatedAt": "2026-05-26T20:11:33.858Z"
+    },
+    {
+      "id": "Ld5jETrlcrs",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-016",
+      "Year": "Current",
+      "Enrolled": "Yes",
+      "CreatedAt": "2026-05-26T20:11:34.487Z",
+      "UpdatedAt": "2026-05-26T20:11:34.487Z"
+    },
+    {
+      "id": "IMU4oqHf04s",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "XFER-rmi74gi",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-26T20:16:51.877Z",
+      "UpdatedAt": "2026-05-26T20:16:51.877Z"
+    },
+    {
+      "id": "BI1oqjoJgmg",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-010",
+      "Year": "Current",
+      "Status": null,
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-26T20:33:55.061Z",
+      "UpdatedAt": "2026-05-26T20:33:55.061Z"
+    },
+    {
+      "id": "vdj2Scr1kug",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-002",
+      "Year": "Current",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-26T20:34:45.038Z",
+      "UpdatedAt": "2026-05-26T20:34:45.038Z",
+      "Status": "Completed",
+      "RecommendNext": "No",
+      "Grade": "C"
+    },
+    {
+      "id": "yqt2pAGdykY",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "XFER-1d6vqme",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-26T20:46:26.857Z",
+      "UpdatedAt": "2026-05-26T20:46:26.857Z",
+      "Enrolled": "No",
+      "RecommendNext": "No"
+    },
+    {
+      "id": "smbTnCKXO4c",
+      "StuSchYrID": "G5_kI09ml-E",
+      "OrgID": "ORG-01",
+      "CourseID": "XFER-yr442vc",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-26T20:46:59.606Z",
+      "UpdatedAt": "2026-05-26T20:46:59.606Z"
+    },
+    {
+      "id": "nPqtm_OqTy4",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-008",
+      "Year": "Current",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T15:49:01.380Z",
+      "UpdatedAt": "2026-05-27T15:49:01.380Z",
+      "Grade": "T"
+    },
+    {
+      "id": "m9iwtFWRMjs",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-009",
+      "Year": "Current",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T15:49:01.926Z",
+      "UpdatedAt": "2026-05-27T15:49:01.926Z",
+      "Grade": "T"
+    },
+    {
+      "id": "0NQiqABbHe4",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-010",
+      "Year": "Current",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T15:49:03.180Z",
+      "UpdatedAt": "2026-05-27T15:49:03.180Z",
+      "Grade": "A"
+    },
+    {
+      "id": "VNqeNuzDm2Q",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-011",
+      "Year": "Current",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T15:49:04.156Z",
+      "UpdatedAt": "2026-05-27T15:49:04.156Z",
+      "Grade": "A"
+    },
+    {
+      "id": "mZ6Yrd711RE",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-014",
+      "Year": "Current",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-27T15:49:40.265Z",
+      "UpdatedAt": "2026-05-27T15:49:40.265Z",
+      "Status": "Completed",
+      "RecommendNext": "No",
+      "Grade": "B"
+    },
+    {
+      "id": "DJa2U63ZYe0",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-015",
+      "Year": "Current",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-27T15:49:41.586Z",
+      "UpdatedAt": "2026-05-27T15:49:41.586Z",
+      "Status": "Completed",
+      "RecommendNext": "No",
+      "Grade": "A"
+    },
+    {
+      "id": "W20Qg8gMzjY",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-012",
+      "Year": "Current",
+      "Status": null,
+      "CreatedAt": "2026-05-27T15:49:44.806Z",
+      "UpdatedAt": "2026-05-27T15:49:44.806Z"
+    },
+    {
+      "id": "CsBESxzeAhY",
+      "StuSchYrID": "PLmpqt2hOhI",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-013",
+      "Year": "Current",
+      "Status": null,
+      "CreatedAt": "2026-05-27T15:49:47.270Z",
+      "UpdatedAt": "2026-05-27T15:49:47.270Z"
+    },
+    {
+      "id": "bbOs51HlwHM",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-008",
+      "Year": "Previous",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T16:06:58.888Z",
+      "UpdatedAt": "2026-05-27T16:06:58.888Z"
+    },
+    {
+      "id": "Jb2ADaYvLrE",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-009",
+      "Year": "Previous",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T16:06:59.789Z",
+      "UpdatedAt": "2026-05-27T16:06:59.789Z"
+    },
+    {
+      "id": "LfBRkOhI2uQ",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-010",
+      "Year": "Previous",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T16:07:01.899Z",
+      "UpdatedAt": "2026-05-27T16:07:01.899Z"
+    },
+    {
+      "id": "CV1GvSAOvVo",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-011",
+      "Year": "Previous",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-27T16:07:02.471Z",
+      "UpdatedAt": "2026-05-27T16:07:02.471Z"
+    },
+    {
+      "id": "Bq50ukOetYU",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-012",
+      "Year": "Previous",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-27T16:07:05.757Z",
+      "UpdatedAt": "2026-05-27T16:07:05.757Z",
+      "Status": "Completed",
+      "RecommendNext": "No",
+      "Grade": "B"
+    },
+    {
+      "id": "oLd7Ks09Q7w",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-013",
+      "Year": "Previous",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-27T16:07:06.337Z",
+      "UpdatedAt": "2026-05-27T16:07:06.337Z",
+      "Status": "Completed",
+      "RecommendNext": "No",
+      "Grade": "A"
+    },
+    {
+      "id": "Fg_aQcWnRRc",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-014",
+      "Year": "Previous",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-27T16:07:07.795Z",
+      "UpdatedAt": "2026-05-27T16:07:07.795Z",
+      "Status": "Completed",
+      "RecommendNext": "No",
+      "Grade": "A"
+    },
+    {
+      "id": "PUwTFizJT3A",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-015",
+      "Year": "Previous",
+      "Enrolled": "No",
+      "CreatedAt": "2026-05-27T16:07:08.581Z",
+      "UpdatedAt": "2026-05-27T16:07:08.581Z",
+      "Status": "Completed",
+      "RecommendNext": "No"
+    },
+    {
+      "id": "CQoPH8OBQ6Y",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-035",
+      "Year": "Current",
+      "Status": "Completed",
+      "CreatedAt": "2026-05-27T16:10:28.484Z",
+      "UpdatedAt": "2026-05-27T16:10:28.484Z",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "Grade": "B"
+    },
+    {
+      "id": "kttFqi4FMg8",
+      "StuSchYrID": "j7VbzKxaYWk",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-036",
+      "Year": "Current",
+      "Status": "Completed",
+      "CreatedAt": "2026-05-27T16:10:28.898Z",
+      "UpdatedAt": "2026-05-27T16:10:28.898Z",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "Grade": "B"
+    },
+    {
+      "id": "nZYQ3W0IXJ0",
+      "StuSchYrID": "V6wavmuT-II",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-008",
+      "Year": "Current",
+      "Status": null,
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-28T14:35:07.164Z",
+      "UpdatedAt": "2026-05-28T14:35:07.164Z",
+      "Grade": "A"
+    },
+    {
+      "id": "RUXfUBNkuy4",
+      "StuSchYrID": "V6wavmuT-II",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-009",
+      "Year": "Current",
+      "Status": null,
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-28T14:35:11.010Z",
+      "UpdatedAt": "2026-05-28T14:35:11.010Z"
+    },
+    {
+      "id": "nI0SCr4Jics",
+      "StuSchYrID": "V6wavmuT-II",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-010",
+      "Year": "Current",
+      "Status": null,
+      "CreatedAt": "2026-05-29T15:17:57.644Z",
+      "UpdatedAt": "2026-05-29T15:17:57.644Z"
+    },
+    {
+      "id": "WvJgL8pZkPA",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-008",
+      "Year": "Current",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-29T15:18:39.829Z",
+      "UpdatedAt": "2026-05-29T15:18:39.829Z"
+    },
+    {
+      "id": "pf2RBxIHmgA",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "CRS-009",
+      "Year": "Current",
+      "RecommendNext": "No",
+      "CreatedAt": "2026-05-29T15:27:16.360Z",
+      "UpdatedAt": "2026-05-29T15:27:16.360Z",
+      "Status": null,
+      "Enrolled": "No"
+    },
+    {
+      "id": "CAqUDM08oEU",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-z3z4kos",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:53:34.946Z",
+      "UpdatedAt": "2026-05-29T15:53:34.946Z"
+    },
+    {
+      "id": "S1oyZSymycE",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-5ajfw5i",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:54:06.225Z",
+      "UpdatedAt": "2026-05-29T15:54:06.225Z"
+    },
+    {
+      "id": "Ly9RTkkS2Wc",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-ucryamk",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:54:18.466Z",
+      "UpdatedAt": "2026-05-29T15:54:18.466Z"
+    },
+    {
+      "id": "2qeqZ8_itY0",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-6fkngec",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:54:37.675Z",
+      "UpdatedAt": "2026-05-29T15:54:37.675Z"
+    },
+    {
+      "id": "8_O2pzsSdc0",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-b88dy8f",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:54:51.985Z",
+      "UpdatedAt": "2026-05-29T15:54:51.985Z"
+    },
+    {
+      "id": "hfE6IziR7fc",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-6u1edx8",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:55:12.536Z",
+      "UpdatedAt": "2026-05-29T15:55:12.536Z"
+    },
+    {
+      "id": "jZLf9YGz-4I",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-2jm316h",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:55:26.059Z",
+      "UpdatedAt": "2026-05-29T15:55:26.059Z"
+    },
+    {
+      "id": "qMaO9nMudXw",
+      "StuSchYrID": "KY3wWD3RZbA",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-6yj8ljp",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T15:55:37.925Z",
+      "UpdatedAt": "2026-05-29T15:55:37.925Z",
+      "Enrolled": "No",
+      "RecommendNext": "No"
+    },
+    {
+      "id": "bIcriEGC6vw",
+      "StuSchYrID": "lKJ5DmW2BVk",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-008",
+      "Year": "Current",
+      "Status": null,
+      "CreatedAt": "2026-05-29T18:14:15.505Z",
+      "UpdatedAt": "2026-05-29T18:14:15.505Z",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "Grade": "T"
+    },
+    {
+      "id": "k0TOJAFR1h0",
+      "StuSchYrID": "lKJ5DmW2BVk",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-009",
+      "Year": "Current",
+      "Status": "Completed",
+      "CreatedAt": "2026-05-29T18:15:17.530Z",
+      "UpdatedAt": "2026-05-29T18:15:17.530Z",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "Grade": "T"
+    },
+    {
+      "id": "9yp2pJZCRWE",
+      "StuSchYrID": "lKJ5DmW2BVk",
+      "OrgID": "ORG-01",
+      "CourseID": "CRS-010",
+      "Year": "Current",
+      "Status": "Completed",
+      "Enrolled": "No",
+      "RecommendNext": "No",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T18:16:21.284Z",
+      "UpdatedAt": "2026-05-29T18:16:21.284Z"
+    },
+    {
+      "id": "frT-tYHh2BY",
+      "StuSchYrID": "puJ9CtgTsc8",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "XFER-xdbdq0o",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T20:42:16.802Z",
+      "UpdatedAt": "2026-05-29T20:42:16.802Z"
+    },
+    {
+      "id": "Zef0la4Yyac",
+      "StuSchYrID": "puJ9CtgTsc8",
+      "OrgID": "ORG-IKAN-01",
+      "CourseID": "Uayt-mbI1Kg",
+      "Year": "Transfer",
+      "Status": "Completed",
+      "Grade": "T",
+      "CreatedAt": "2026-05-29T20:49:04.448Z",
+      "UpdatedAt": "2026-05-29T20:49:04.448Z"
+    }
+  ],
+  "MonthlyAttendance": [
+    {
+      "id": "GIcasPIR2sQ",
+      "StudentRecordID": "OQGwnwBtzus",
+      "MonthID": "8",
+      "AttTotalDays": 19,
+      "AttPresent": 15,
+      "AttAbsent": 4,
+      "AttExcused": 1,
+      "AttUnexcused": 3,
+      "AttSuspended": 0,
+      "AttTardy": 6,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:02:53.003Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:08:34.369Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "DY5b9E8EdkQ",
+      "StudentRecordID": "OQGwnwBtzus",
+      "MonthID": "7",
+      "AttTotalDays": 17,
+      "AttPresent": 10,
+      "AttAbsent": 7,
+      "AttExcused": 0,
+      "AttUnexcused": 7,
+      "AttSuspended": 0,
+      "AttTardy": 7,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:03:09.956Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:08:04.038Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "LyQGACRxS9U",
+      "StudentRecordID": "OQGwnwBtzus",
+      "MonthID": "6",
+      "AttTotalDays": 18,
+      "AttPresent": 13,
+      "AttAbsent": 5,
+      "AttExcused": 0,
+      "AttUnexcused": 5,
+      "AttSuspended": 0,
+      "AttTardy": 4,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:03:27.961Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:07:45.904Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "3X9Dq1yN3oE",
+      "StudentRecordID": "cetlyj5gf8Y",
+      "MonthID": "8",
+      "AttTotalDays": 19,
+      "AttPresent": 19,
+      "AttAbsent": 0,
+      "AttExcused": 0,
+      "AttUnexcused": 0,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:15:30.977Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:08:34.370Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "Iso0l6ignA0",
+      "StudentRecordID": "cetlyj5gf8Y",
+      "MonthID": "7",
+      "AttTotalDays": 17,
+      "AttPresent": 16,
+      "AttAbsent": 1,
+      "AttExcused": 0,
+      "AttUnexcused": 1,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:15:47.556Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:08:04.038Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "MIRJvS26qnc",
+      "StudentRecordID": "cetlyj5gf8Y",
+      "MonthID": "6",
+      "AttTotalDays": "18",
+      "AttPresent": "17",
+      "AttAbsent": "1",
+      "AttExcused": "0",
+      "AttUnexcused": "1",
+      "AttSuspended": "0",
+      "AttTardy": "1",
+      "AttDiscipline": "",
+      "CreatedAt": "2026-05-27T21:16:01.179Z"
+    },
+    {
+      "id": "yJIMIUrQEHo",
+      "StudentRecordID": "ylaoPZY_BIs",
+      "MonthID": "8",
+      "AttTotalDays": 19,
+      "AttPresent": 18,
+      "AttAbsent": 1,
+      "AttExcused": 1,
+      "AttUnexcused": 0,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:21:51.579Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:08:34.370Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "m4im00MUt68",
+      "StudentRecordID": "ylaoPZY_BIs",
+      "MonthID": "7",
+      "AttTotalDays": 17,
+      "AttPresent": 16,
+      "AttAbsent": 1,
+      "AttExcused": 1,
+      "AttUnexcused": 0,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:22:19.576Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:08:04.038Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "qVG1fihqg18",
+      "StudentRecordID": "ylaoPZY_BIs",
+      "MonthID": "6",
+      "AttTotalDays": 18,
+      "AttPresent": 16,
+      "AttAbsent": 2,
+      "AttExcused": 1,
+      "AttUnexcused": 1,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-27T21:22:41.340Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:07:45.904Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "OBMUHGuJ1vk",
+      "StudentRecordID": "ylaoPZY_BIs",
+      "MonthID": "5",
+      "AttTotalDays": 18,
+      "AttPresent": 17,
+      "AttAbsent": 1,
+      "AttExcused": 1,
+      "AttUnexcused": 0,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-28T14:58:27.772Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:12:20.726Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "1",
+      "AttTotalDays": 30,
+      "AttPresent": 20,
+      "AttAbsent": 10,
+      "AttExcused": 8,
+      "AttUnexcused": 2,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:04:53.002Z",
+      "OrgID": "ORG-IKAN-01",
+      "id": "imtOx0HneB4",
+      "CreatedAt": "2026-05-28T16:04:19.988Z",
+      "_isExisting": true
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "2",
+      "AttTotalDays": 21,
+      "AttPresent": 16,
+      "AttAbsent": 5,
+      "AttExcused": 0,
+      "AttUnexcused": 5,
+      "AttSuspended": 0,
+      "AttTardy": 2,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:11:11.809Z",
+      "OrgID": "ORG-IKAN-01",
+      "id": "HyjV8UTToxw",
+      "CreatedAt": "2026-05-28T16:05:16.653Z",
+      "_isExisting": true,
+      "SchoolYearID": "SY-2025-2026"
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "3",
+      "AttTotalDays": 17,
+      "AttPresent": 13,
+      "AttAbsent": 4,
+      "AttExcused": 2,
+      "AttUnexcused": 2,
+      "AttSuspended": 0,
+      "AttTardy": 2,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:11:39.395Z",
+      "OrgID": "ORG-IKAN-01",
+      "id": "uTyPwv7zsrI",
+      "CreatedAt": "2026-05-28T16:05:49.704Z",
+      "_isExisting": true,
+      "SchoolYearID": "SY-2025-2026"
+    },
+    {
+      "id": "mock-24-25-1",
+      "StudentRecordID": "OQGwnwBtzus",
+      "MonthID": "7",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "AttTotalDays": 15,
+      "AttPresent": 10,
+      "AttAbsent": 5,
+      "AttExcused": 2,
+      "AttUnexcused": 3,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-28T16:06:16.875Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:29:17.903Z",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "mock-24-25-2",
+      "StudentRecordID": "OQGwnwBtzus",
+      "MonthID": "8",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "AttTotalDays": 20,
+      "AttPresent": 18,
+      "AttAbsent": 2,
+      "AttExcused": 1,
+      "AttUnexcused": 1,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-28T16:06:16.876Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:29:50.598Z",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "4",
+      "AttTotalDays": 15,
+      "AttPresent": 14,
+      "AttAbsent": 1,
+      "AttExcused": 0,
+      "AttUnexcused": 1,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:12:00.428Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "6I6KcxnmxDA",
+      "CreatedAt": "2026-05-28T16:07:05.403Z",
+      "_isExisting": true
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "5",
+      "AttTotalDays": 18,
+      "AttPresent": 14,
+      "AttAbsent": 4,
+      "AttExcused": 2,
+      "AttUnexcused": 2,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:12:20.726Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "j1U5K2D57lU",
+      "CreatedAt": "2026-05-28T16:07:21.918Z",
+      "_isExisting": true
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "6",
+      "AttTotalDays": 18,
+      "AttPresent": 14,
+      "AttAbsent": 4,
+      "AttExcused": 2,
+      "AttUnexcused": 2,
+      "AttSuspended": 0,
+      "AttTardy": 3,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:07:45.905Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "kXLtncM2sqU",
+      "CreatedAt": "2026-05-28T16:07:45.905Z"
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "7",
+      "AttTotalDays": 17,
+      "AttPresent": 10,
+      "AttAbsent": 7,
+      "AttExcused": 1,
+      "AttUnexcused": 6,
+      "AttSuspended": 0,
+      "AttTardy": 2,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:08:04.038Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "uo6R0k4tUcE",
+      "CreatedAt": "2026-05-28T16:08:04.038Z"
+    },
+    {
+      "StudentRecordID": "jyJZEUFFSD4",
+      "MonthID": "8",
+      "AttTotalDays": 19,
+      "AttPresent": 15,
+      "AttAbsent": 4,
+      "AttExcused": 1,
+      "AttUnexcused": 3,
+      "AttSuspended": 0,
+      "AttTardy": 2,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:08:34.370Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "s29kOyM-cAc",
+      "CreatedAt": "2026-05-28T16:08:34.370Z"
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "1",
+      "AttTotalDays": 30,
+      "AttPresent": 25,
+      "AttAbsent": 5,
+      "AttExcused": 1,
+      "AttUnexcused": 4,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:10:33.835Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "VqZ0SiNrVdU",
+      "CreatedAt": "2026-05-28T16:10:33.835Z"
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "2",
+      "AttTotalDays": 21,
+      "AttPresent": 18,
+      "AttAbsent": 3,
+      "AttExcused": 0,
+      "AttUnexcused": 3,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:11:11.809Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "xi5bSozykwQ",
+      "CreatedAt": "2026-05-28T16:11:11.809Z"
+    },
+    {
+      "id": "mock-keegan-feb",
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "8",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "AttTotalDays": 20,
+      "AttPresent": 20,
+      "AttAbsent": 0,
+      "AttExcused": 0,
+      "AttUnexcused": 0,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-28T16:11:22.196Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:29:50.598Z",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "mock-keegan-mar",
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "9",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "AttTotalDays": 21,
+      "AttPresent": 14,
+      "AttAbsent": 7,
+      "AttExcused": 0,
+      "AttUnexcused": 7,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "CreatedAt": "2026-05-28T16:11:22.197Z",
+      "_isExisting": true,
+      "UpdatedAt": "2026-05-28T16:30:31.088Z",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "mock-keegan-apr",
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "10",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "AttTotalDays": "19",
+      "AttPresent": "16",
+      "AttAbsent": "3",
+      "AttExcused": "0",
+      "AttUnexcused": "3",
+      "AttSuspended": "0",
+      "AttTardy": "0",
+      "AttDiscipline": "0",
+      "CreatedAt": "2026-05-28T16:11:22.197Z"
+    },
+    {
+      "id": "mock-keegan-may",
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "11",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "AttTotalDays": "22",
+      "AttPresent": "20",
+      "AttAbsent": "2",
+      "AttExcused": "2",
+      "AttUnexcused": "0",
+      "AttSuspended": "0",
+      "AttTardy": "0",
+      "AttDiscipline": "0",
+      "CreatedAt": "2026-05-28T16:11:22.197Z"
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "3",
+      "AttTotalDays": 17,
+      "AttPresent": 16,
+      "AttAbsent": 1,
+      "AttExcused": 0,
+      "AttUnexcused": 1,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:11:39.395Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "CGJ1jD8qzLw",
+      "CreatedAt": "2026-05-28T16:11:39.395Z"
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "4",
+      "AttTotalDays": 15,
+      "AttPresent": 12,
+      "AttAbsent": 3,
+      "AttExcused": 0,
+      "AttUnexcused": 3,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:12:00.428Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "htbIu7qtvtk",
+      "CreatedAt": "2026-05-28T16:12:00.428Z"
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "5",
+      "AttTotalDays": 18,
+      "AttPresent": 16,
+      "AttAbsent": 2,
+      "AttExcused": 0,
+      "AttUnexcused": 2,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:12:20.727Z",
+      "SchoolYearID": "SY-2025-2026",
+      "OrgID": "ORG-IKAN-01",
+      "id": "ruLDfzdlyS4",
+      "CreatedAt": "2026-05-28T16:12:20.727Z"
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "6",
+      "AttTotalDays": 18,
+      "AttPresent": 16,
+      "AttAbsent": 2,
+      "AttExcused": 1,
+      "AttUnexcused": 1,
+      "AttSuspended": 0,
+      "AttTardy": 1,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:32:05.495Z",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "OrgID": "ORG-IKAN-01",
+      "id": "gpilN8Z7z1U",
+      "CreatedAt": "2026-05-28T16:29:01.094Z",
+      "_isExisting": true
+    },
+    {
+      "StudentRecordID": "y4X6nXt8ycQ",
+      "MonthID": "7",
+      "AttTotalDays": 15,
+      "AttPresent": 15,
+      "AttAbsent": 0,
+      "AttExcused": 0,
+      "AttUnexcused": 0,
+      "AttSuspended": 0,
+      "AttTardy": 0,
+      "AttDiscipline": 0,
+      "UpdatedAt": "2026-05-28T16:29:17.903Z",
+      "SchoolYearID": "Oj1IwysV9tk",
+      "OrgID": "ORG-IKAN-01",
+      "id": "ylaigS_36LQ",
+      "CreatedAt": "2026-05-28T16:29:17.903Z"
+    }
+  ],
+  "StudentCaseworkerNotes": [],
+  "StudentTracking": [],
+  "StudentMentalHealth": [],
+  "MentalHealthNotes": [],
+  "HonorRollSnapshot": [],
+  "XferCourseCatalog": [
+    {
+      "id": "04PH7YCVtog",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "Test Clast 123",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "XferNotes": "",
+      "IsActive": "Yes"
+    },
+    {
+      "id": "Uayt-mbI1Kg",
+      "OrgID": "ORG-IKAN-01",
+      "CourseName": "test 1234",
+      "CourseCredits": 0.5,
+      "CourseCategory": "Mathematics",
+      "CourseLevel": "High School",
+      "CourseRequired": "No",
+      "XferNotes": "",
+      "IsActive": "Yes"
+    }
+  ],
+  "CaseEntryExitDates": [],
+  "SchoolGrades": [
+    {
+      "id": "SG-1",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-2",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-3",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-4",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-5",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-6",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-7",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-8",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-9",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-10",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-01",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-15",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-02",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-16",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-02",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-17",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-02",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-18",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-03",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-19",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-03",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-20",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-03",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-21",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-22",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-23",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-24",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-25",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-26",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-27",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-28",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-29",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-30",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-04",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-35",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-36",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-37",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-38",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-39",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-40",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-41",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-42",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-43",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-44",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-05",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-56",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-06",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-57",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-06",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-58",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-06",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-63",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-07",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-64",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-07",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-65",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-07",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-66",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-07",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-81",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-08",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-82",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-08",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-83",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-08",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-91",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-09",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-92",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-09",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-93",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-09",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-94",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-09",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-95",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-10",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-96",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-10",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-97",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-10",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-98",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-10",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-99",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-11",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-100",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-11",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-101",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-11",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-102",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-11",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-103",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-11",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-104",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-11",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-105",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-12",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-106",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-12",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-107",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-12",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-108",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-13",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-109",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-13",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-110",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-13",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-111",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-13",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-112",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-13",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-113",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-13",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-114",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-14",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-115",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-14",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-116",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-14",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-117",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-14",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-118",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-15",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-119",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-15",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-120",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-15",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-121",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-16",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-122",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-16",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-123",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-16",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-124",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-16",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-125",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-16",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-126",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-16",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-127",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-17",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-128",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-17",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-129",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-17",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-130",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-17",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-131",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-17",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-132",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-17",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-133",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-18",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-134",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-18",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-135",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-18",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-136",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-18",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-137",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-19",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-138",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-19",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-139",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-19",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-140",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-20",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-141",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-20",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-142",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-20",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-143",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-20",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-144",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-20",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-145",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-20",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-146",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-21",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-147",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-21",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-148",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-21",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-149",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-21",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-150",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-22",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-151",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-22",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-152",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-22",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-153",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-23",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-154",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-23",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-155",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-23",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-156",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-24",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-157",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-24",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-158",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-24",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-159",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-25",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-160",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-25",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-161",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-25",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-162",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-25",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-163",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-26",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-164",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-26",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-165",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-26",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-166",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-26",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-167",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-26",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-168",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-26",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-169",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-27",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-170",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-27",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-171",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-27",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-172",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-27",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-173",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-27",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-174",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-27",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-175",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-28",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-176",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-28",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-177",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-28",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-178",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-28",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-179",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-28",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-180",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-28",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-181",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-29",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-182",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-29",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-183",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-29",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-184",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-29",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-185",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-30",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-186",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-30",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-187",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-30",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-188",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-189",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-190",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-191",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-192",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-193",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-194",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-195",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-196",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-197",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-31",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-202",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-32",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-203",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-32",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-204",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-32",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-205",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-32",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-206",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-33",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-207",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-33",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-208",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-33",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-209",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-33",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-210",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-34",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-211",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-34",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-212",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-34",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-213",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-35",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-214",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-35",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-215",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-35",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-216",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-36",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-217",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-36",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-218",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-36",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-219",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-220",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-221",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-222",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-223",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-224",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-225",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-226",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-227",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-228",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-37",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-233",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-38",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-234",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-38",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-235",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-38",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-236",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-38",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-237",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-39",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-238",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-39",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-239",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-39",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-240",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-39",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-241",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-39",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-242",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-39",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-243",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-40",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-244",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-40",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-245",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-40",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-246",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-40",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-247",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-41",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-248",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-41",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-249",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-41",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-250",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-41",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-251",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-41",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-252",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-41",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-253",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-42",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-254",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-42",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-255",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-42",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-256",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-42",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-257",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-43",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-258",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-43",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-259",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-43",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-260",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-44",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-261",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-44",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-262",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-44",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-263",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-44",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-264",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-44",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-265",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-44",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-266",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-45",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-267",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-45",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-268",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-45",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-269",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-45",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-270",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-46",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-271",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-46",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-272",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-46",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-273",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-46",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-274",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-46",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-275",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-46",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-276",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-47",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-277",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-47",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-278",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-47",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-279",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-47",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-280",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-48",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-281",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-48",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-282",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-48",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-283",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-284",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-285",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-286",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-287",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-288",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-289",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-290",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-291",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-292",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-49",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-297",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-50",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-298",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-50",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-299",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-50",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-300",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-50",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-301",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-51",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-302",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-51",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-303",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-51",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-304",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-51",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-305",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-51",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-306",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-51",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-307",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-52",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-308",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-52",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-309",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-52",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-310",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-52",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-311",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-53",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-312",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-53",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-313",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-53",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-314",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-53",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-315",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-53",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-316",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-53",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-317",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-54",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-318",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-54",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-319",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-54",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-320",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-54",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-321",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-54",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-322",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-54",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-323",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-55",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-324",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-55",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-325",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-55",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-326",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-55",
+      "GradeLevel": "12"
+    },
+    {
+      "id": "SG-327",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-56",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-328",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-56",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-329",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-56",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-330",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-331",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-332",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-333",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-334",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-335",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-336",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-337",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-338",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-339",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-57",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-344",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "PK"
+    },
+    {
+      "id": "SG-345",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "K"
+    },
+    {
+      "id": "SG-346",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "1"
+    },
+    {
+      "id": "SG-347",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "2"
+    },
+    {
+      "id": "SG-348",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "3"
+    },
+    {
+      "id": "SG-349",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "4"
+    },
+    {
+      "id": "SG-350",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "5"
+    },
+    {
+      "id": "SG-351",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "6"
+    },
+    {
+      "id": "SG-352",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "7"
+    },
+    {
+      "id": "SG-353",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "8"
+    },
+    {
+      "id": "SG-354",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "9"
+    },
+    {
+      "id": "SG-355",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "10"
+    },
+    {
+      "id": "SG-356",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "11"
+    },
+    {
+      "id": "SG-357",
+      "OrgID": "ORG-IKAN-01",
+      "SchoolID": "SCH-58",
+      "GradeLevel": "12"
+    }
+  ],
+  "Notifications": [],
+  "StudentContact": [
+    {
+      "Emergency": false,
+      "ContactLast": "Vickery",
+      "ContactFirst": "Andrea",
+      "ContactMiddle": "",
+      "ContactRelationship": "mother",
+      "ContactEmail": "andreavickery32@gmail.com",
+      "ContactPhone": "815-278-5859",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "ikAIBWb79nI",
+      "StudentRecordID": "cac461f1-7524-400e-8949-4b0839fa9949",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "Dow",
+      "ContactFirst": "Todd",
+      "ContactMiddle": "",
+      "ContactRelationship": "Single Parent - Father",
+      "ContactEmail": "tdow@home.com",
+      "ContactPhone": "815-123-4567",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "ulcfaW0VSV8",
+      "StudentRecordID": "ed749b51-892d-40e6-a6b9-1b1033f973e4",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": false,
+      "ContactLast": "clark",
+      "ContactFirst": "jordyn",
+      "ContactMiddle": "",
+      "ContactRelationship": "Foster Care",
+      "ContactEmail": "jclark@i-kan.org",
+      "ContactPhone": "8159265693",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "WActm3zMJK4",
+      "StudentRecordID": "9cad4726-fc0a-4480-ad18-ba5637dd8083",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "Bauman",
+      "ContactFirst": "Cynthia",
+      "ContactMiddle": "",
+      "ContactRelationship": "Other",
+      "ContactEmail": "schristensen@i-kan.org",
+      "ContactPhone": "8152779475",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": false,
+      "id": "ECc30bb6wUc",
+      "StudentRecordID": "9cad4726-fc0a-4480-ad18-ba5637dd8083",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "sellers",
+      "ContactFirst": "stacia",
+      "ContactMiddle": "",
+      "ContactRelationship": "Single Parent - Father",
+      "ContactEmail": "schristensen@i-kan.org",
+      "ContactPhone": "",
+      "ContactEmerPhone": "8152779475",
+      "ContactESL": true,
+      "IsPrimary": false,
+      "id": "stGQgRHAdYs",
+      "StudentRecordID": "9cad4726-fc0a-4480-ad18-ba5637dd8083",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": false,
+      "ContactLast": "christensen",
+      "ContactFirst": "sara",
+      "ContactMiddle": "",
+      "ContactRelationship": "Both Parents",
+      "ContactEmail": "schristensen@i-kan.org",
+      "ContactPhone": "8152779475",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "Ika_QN20y8U",
+      "StudentRecordID": "1e135012-f411-4ba1-a791-5d70fa66011f",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "james",
+      "ContactFirst": "kayla",
+      "ContactMiddle": "",
+      "ContactRelationship": "Single Parent - Father",
+      "ContactEmail": "schristensen@i-kan.org",
+      "ContactPhone": "8152779475",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": false,
+      "id": "lrytFy_ZjFo",
+      "StudentRecordID": "1e135012-f411-4ba1-a791-5d70fa66011f",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": false,
+      "ContactLast": "Janczak",
+      "ContactFirst": "Jennifer",
+      "ContactMiddle": "",
+      "ContactRelationship": "Single Parent - Mother",
+      "ContactEmail": "kricket180@gmail.com",
+      "ContactPhone": "779-713-5977",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "gqKHHyYFcZg",
+      "StudentRecordID": "c30a84cd-c453-4c60-96ca-bd028bdc6b57",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "Valdez",
+      "ContactFirst": "Salvador",
+      "ContactMiddle": "",
+      "ContactRelationship": "Both Parents",
+      "ContactEmail": "",
+      "ContactPhone": "8152779475",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": false,
+      "id": "mNX6nHqGP1E",
+      "StudentRecordID": "c30a84cd-c453-4c60-96ca-bd028bdc6b57",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": false,
+      "ContactLast": "Janczak",
+      "ContactFirst": "Jennifer",
+      "ContactMiddle": "",
+      "ContactRelationship": "Both Parents",
+      "ContactEmail": "krick180@gmail.com",
+      "ContactPhone": "779-713-5977",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "2cgeAcfY6e4",
+      "StudentRecordID": "90e1a08e-7832-4868-8a2f-c079b6094e70",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "boudreau",
+      "ContactFirst": "tom",
+      "ContactMiddle": "",
+      "ContactRelationship": "Foster Care",
+      "ContactEmail": "tom@home.com",
+      "ContactPhone": "",
+      "ContactEmerPhone": "123-1234-45612",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "gMQFhluGtos",
+      "StudentRecordID": "8104d86b-0b6d-48f5-bafc-f48765bbd6fb",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "boudreau",
+      "ContactFirst": "Mom",
+      "ContactMiddle": "",
+      "ContactRelationship": "Both Parents",
+      "ContactEmail": "mom@home.com",
+      "ContactPhone": "",
+      "ContactEmerPhone": "123-1234567",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "xwRUSV1rQ9o",
+      "StudentRecordID": "5ac446f7-de62-41d6-817a-ee205887247c",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "id": "On3e3_yDSW8",
+      "StudentRecordID": "OQGwnwBtzus",
+      "ContactLast": "Test",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "boudreau",
+      "ContactFirst": "mom",
+      "ContactMiddle": "",
+      "ContactRelationship": "Both Parents",
+      "ContactEmail": "mom@home.com",
+      "ContactPhone": "",
+      "ContactEmerPhone": "815-123-1324",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "JHGfHlDg7HY",
+      "StudentRecordID": "5KKDljvtDXY",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": true,
+      "ContactLast": "Mom",
+      "ContactFirst": "Alisa",
+      "ContactMiddle": "",
+      "ContactRelationship": "Both Parents",
+      "ContactEmail": "mom@home.com",
+      "ContactPhone": "",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": true,
+      "id": "bpG684Bg4-k",
+      "StudentRecordID": "ylaoPZY_BIs",
+      "OrgID": "ORG-IKAN-01"
+    },
+    {
+      "Emergency": false,
+      "ContactLast": "Mom",
+      "ContactFirst": "Keegan",
+      "ContactMiddle": "",
+      "ContactRelationship": "Single Parent - Mother",
+      "ContactEmail": "mom@home.com",
+      "ContactPhone": "",
+      "ContactEmerPhone": "",
+      "ContactESL": false,
+      "IsPrimary": false,
+      "id": "shyIobgNzhs",
+      "StudentRecordID": "5392f477-4f7b-4728-9e38-0ee2189fb349",
+      "OrgID": "ORG-IKAN-01"
+    }
+  ],
+  "Months": [
+    {
+      "id": "1",
+      "MonthID": "1",
+      "MonthName": "Aug-Sept",
+      "SequenceOrder": 1
+    },
+    {
+      "id": "2",
+      "MonthID": "2",
+      "MonthName": "October",
+      "SequenceOrder": 2
+    },
+    {
+      "id": "3",
+      "MonthID": "3",
+      "MonthName": "November",
+      "SequenceOrder": 3
+    },
+    {
+      "id": "4",
+      "MonthID": "4",
+      "MonthName": "December",
+      "SequenceOrder": 4
+    },
+    {
+      "id": "5",
+      "MonthID": "5",
+      "MonthName": "January",
+      "SequenceOrder": 5
+    },
+    {
+      "id": "6",
+      "MonthID": "6",
+      "MonthName": "February",
+      "SequenceOrder": 6
+    },
+    {
+      "id": "7",
+      "MonthID": "7",
+      "MonthName": "March",
+      "SequenceOrder": 7
+    },
+    {
+      "id": "8",
+      "MonthID": "8",
+      "MonthName": "April",
+      "SequenceOrder": 8
+    },
+    {
+      "id": "9",
+      "MonthID": "9",
+      "MonthName": "May-June",
+      "SequenceOrder": 9
+    }
+  ],
+  "LetterGrades": [
+    {
+      "id": "LG-A",
+      "GradeValue": "A",
+      "GradeOrder": 1
+    },
+    {
+      "id": "LG-B",
+      "GradeValue": "B",
+      "GradeOrder": 2
+    },
+    {
+      "id": "LG-C",
+      "GradeValue": "C",
+      "GradeOrder": 3
+    },
+    {
+      "id": "LG-D",
+      "GradeValue": "D",
+      "GradeOrder": 4
+    },
+    {
+      "id": "LG-F",
+      "GradeValue": "F",
+      "GradeOrder": 5
+    },
+    {
+      "id": "LG-P",
+      "GradeValue": "P",
+      "GradeOrder": 6
+    },
+    {
+      "id": "LG-T",
+      "GradeValue": "T",
+      "GradeOrder": 7
+    }
+  ],
+  "CourseCategories": [
+    {
+      "id": "CC-01",
+      "CategoryName": "Mathematics",
+      "CategoryOrder": 1,
+      "StateCreditsRequired": 6
+    },
+    {
+      "id": "CC-02",
+      "CategoryName": "Life and Physical Sciences",
+      "CategoryOrder": 2,
+      "StateCreditsRequired": 4
+    },
+    {
+      "id": "CC-03",
+      "CategoryName": "Social Sciences and History",
+      "CategoryOrder": 3,
+      "StateCreditsRequired": 4
+    },
+    {
+      "id": "CC-04",
+      "CategoryName": "English Language and Literature",
+      "CategoryOrder": 4,
+      "StateCreditsRequired": 8
+    },
+    {
+      "id": "CC-05",
+      "CategoryName": "Information Technology",
+      "CategoryOrder": 5,
+      "StateCreditsRequired": 2
+    },
+    {
+      "id": "CC-06",
+      "CategoryName": "Health",
+      "CategoryOrder": 6,
+      "StateCreditsRequired": 0.5
+    },
+    {
+      "id": "CC-08",
+      "CategoryName": "Elective",
+      "CategoryOrder": 8,
+      "StateCreditsRequired": 0
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
